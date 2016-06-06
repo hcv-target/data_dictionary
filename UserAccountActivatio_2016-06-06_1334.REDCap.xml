@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="http://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="User Account Activations" AsOfDateTime="2016-06-06T13:34:22" CreationDateTime="2016-06-06T13:34:22" SourceSystem="REDCap" SourceSystemVersion="6.13.0">
+<Study OID="Project.UserAccountActivations">
+<GlobalVariables>
+	<StudyName>User Account Activations</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "User Account Activations".</StudyDescription>
+	<ProtocolName>User Account Activations</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel>[first_name] [last_name] ([project_name])</redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:Purpose>4</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.UserAccountActivations_2016-06-06_1334" Name="User Account Activations" redcap:RecordIdField="user_id">
+	<FormDef OID="Form.users" Name="Users" Repeating="No" redcap:FormName="users">
+		<ItemGroupRef ItemGroupOID="users.user_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="users.users_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="users.user_id" Name="Users" Repeating="No">
+		<ItemRef ItemOID="user_id" Mandatory="No" redcap:Variable="user_id"/>
+		<ItemRef ItemOID="project_name" Mandatory="Yes" redcap:Variable="project_name"/>
+		<ItemRef ItemOID="first_name" Mandatory="Yes" redcap:Variable="first_name"/>
+		<ItemRef ItemOID="last_name" Mandatory="Yes" redcap:Variable="last_name"/>
+		<ItemRef ItemOID="user_name" Mandatory="Yes" redcap:Variable="user_name"/>
+		<ItemRef ItemOID="user_email" Mandatory="Yes" redcap:Variable="user_email"/>
+		<ItemRef ItemOID="training_completed" Mandatory="Yes" redcap:Variable="training_completed"/>
+		<ItemRef ItemOID="user_role" Mandatory="Yes" redcap:Variable="user_role"/>
+		<ItemRef ItemOID="pi_first_name" Mandatory="Yes" redcap:Variable="pi_first_name"/>
+		<ItemRef ItemOID="pi_last_name" Mandatory="Yes" redcap:Variable="pi_last_name"/>
+		<ItemRef ItemOID="site" Mandatory="Yes" redcap:Variable="site"/>
+		<ItemRef ItemOID="user_form" Mandatory="Yes" redcap:Variable="user_form"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="users.users_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="users_complete" Mandatory="No" redcap:Variable="users_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="user_id" Name="user_id" DataType="text" Length="999" redcap:Variable="user_id" redcap:FieldType="text">
+		<Question><TranslatedText>User ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="project_name" Name="project_name" DataType="text" Length="36" redcap:Variable="project_name" redcap:FieldType="sql" redcap:RequiredField="y">
+		<Question><TranslatedText>REDCap Project</TranslatedText></Question>
+		<CodeListRef CodeListOID="project_name.choices"/>
+	</ItemDef>
+	<ItemDef OID="first_name" Name="first_name" DataType="text" Length="999" redcap:Variable="first_name" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>First Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="last_name" Name="last_name" DataType="text" Length="999" redcap:Variable="last_name" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Last Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="user_name" Name="user_name" DataType="text" Length="999" redcap:Variable="user_name" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Username</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="user_email" Name="user_email" DataType="text" Length="999" redcap:Variable="user_email" redcap:FieldType="text" redcap:TextValidationType="email" redcap:RequiredField="y">
+		<Question><TranslatedText>Email</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="training_completed" Name="training_completed" DataType="text" Length="1" redcap:Variable="training_completed" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Training completed?</TranslatedText></Question>
+		<CodeListRef CodeListOID="training_completed.choices"/>
+	</ItemDef>
+	<ItemDef OID="user_role" Name="user_role" DataType="text" Length="21" redcap:Variable="user_role" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>User Role</TranslatedText></Question>
+		<CodeListRef CodeListOID="user_role.choices"/>
+	</ItemDef>
+	<ItemDef OID="pi_first_name" Name="pi_first_name" DataType="text" Length="999" redcap:Variable="pi_first_name" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>PI First Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="pi_last_name" Name="pi_last_name" DataType="text" Length="999" redcap:Variable="pi_last_name" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>PI Last Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="site" Name="site" DataType="text" Length="39" redcap:Variable="site" redcap:FieldType="sql" redcap:RequiredField="y">
+		<Question><TranslatedText>Site</TranslatedText></Question>
+		<CodeListRef CodeListOID="site.choices"/>
+	</ItemDef>
+	<ItemDef OID="user_form" Name="user_form" DataType="text" Length="999" redcap:Variable="user_form" redcap:FieldType="file" redcap:FieldNote="Upload the completed Activation Form for this user" redcap:RequiredField="y">
+		<Question><TranslatedText>REDCap User Account Activation Form</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="users_complete" Name="users_complete" DataType="text" Length="1" redcap:Variable="users_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="users_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="project_name.choices" Name="project_name" DataType="text" redcap:Variable="project_name">
+		<CodeListItem CodedValue="21 CFR Part 11 Compliance Assessment"><Decode><TranslatedText>21 CFR Part 11 Compliance Assessment</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="Biospecimen Repository"><Decode><TranslatedText>Biospecimen Repository</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="BMS AI444-257"><Decode><TranslatedText>BMS AI444-257</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="BMS AI444-257 Monitoring"><Decode><TranslatedText>BMS AI444-257 Monitoring</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="BMS AI444-257 Regulatory Documents"><Decode><TranslatedText>BMS AI444-257 Regulatory Documents</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="Codelist Data"><Decode><TranslatedText>Codelist Data</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="Dose Units Data"><Decode><TranslatedText>Dose Units Data</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="HCV Target - Serum Study"><Decode><TranslatedText>HCV Target - Serum Study</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="HCV-TARGET"><Decode><TranslatedText>HCV-TARGET</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="HCV-TARGET 2.0 / 3.0"><Decode><TranslatedText>HCV-TARGET 2.0 / 3.0</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="HCV-TARGET RED-I TEST"><Decode><TranslatedText>HCV-TARGET RED-I TEST</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="HCV-TARGET Sites"><Decode><TranslatedText>HCV-TARGET Sites</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="HCV-TARGET UNC Person Index"><Decode><TranslatedText>HCV-TARGET UNC Person Index</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="Lab Units Data"><Decode><TranslatedText>Lab Units Data</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="MedDRA Data"><Decode><TranslatedText>MedDRA Data</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="PreScreening Log (non-enrollees)"><Decode><TranslatedText>PreScreening Log (non-enrollees)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="PRIORITIZE"><Decode><TranslatedText>PRIORITIZE</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="PROP UP"><Decode><TranslatedText>PROP UP</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="SAS Export Test"><Decode><TranslatedText>SAS Export Test</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="STEADFAST"><Decode><TranslatedText>STEADFAST</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="STEADFAST Labs"><Decode><TranslatedText>STEADFAST Labs</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="User Account Activations"><Decode><TranslatedText>User Account Activations</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="training_completed.choices" Name="training_completed" DataType="text" redcap:Variable="training_completed">
+		<CodeListItem CodedValue="N"><Decode><TranslatedText>NO</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="Y"><Decode><TranslatedText>YES</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="user_role.choices" Name="user_role" DataType="text" redcap:Variable="user_role">
+		<CodeListItem CodedValue="CLINICAL_DATA_MANAGER"><Decode><TranslatedText>Clinical Data Manager</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="CRA"><Decode><TranslatedText>CRA/Data Monitor</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="FUNDING"><Decode><TranslatedText>Funding Administrator</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="INVESTIGATOR"><Decode><TranslatedText>Investigator</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="INVESTIGATOR_EXTERNAL"><Decode><TranslatedText>Investigator (External)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="PROJECT_MANAGER_CCC"><Decode><TranslatedText>Project Manager CCC</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="PROJECT_MANAGER_DCC"><Decode><TranslatedText>Project Manager DCC</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="STATISTICIAN"><Decode><TranslatedText>Statistician</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="COORDINATOR"><Decode><TranslatedText>Study Coordinator</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="DATA_ENTRY"><Decode><TranslatedText>Data Entry</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="API"><Decode><TranslatedText>API-only access</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="site.choices" Name="site" DataType="text" redcap:Variable="site">
+		<CodeListItem CodedValue="0001 - Johns Hopkins University"><Decode><TranslatedText>0001 - Johns Hopkins University</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0002 - Mayo, Arizona"><Decode><TranslatedText>0002 - Mayo, Arizona</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0003 - Texas"><Decode><TranslatedText>0003 - Texas</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0004 - Florida"><Decode><TranslatedText>0004 - Florida</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0005 - University of Pennsylvania"><Decode><TranslatedText>0005 - University of Pennsylvania</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0006 - UC, San Diego"><Decode><TranslatedText>0006 - UC, San Diego</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0007 - Columbia"><Decode><TranslatedText>0007 - Columbia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0008 - Mass Gen"><Decode><TranslatedText>0008 - Mass Gen</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0009 - Yale"><Decode><TranslatedText>0009 - Yale</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="001 - Florida"><Decode><TranslatedText>001 - Florida</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0010 - Indiana"><Decode><TranslatedText>0010 - Indiana</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0011 - Henry Ford Health System"><Decode><TranslatedText>0011 - Henry Ford Health System</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0012 - Dartmouth"><Decode><TranslatedText>0012 - Dartmouth</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0013 - Ochsner Healthcare"><Decode><TranslatedText>0013 - Ochsner Healthcare</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0014 - UNC"><Decode><TranslatedText>0014 - UNC</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0015 - Chicago"><Decode><TranslatedText>0015 - Chicago</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0016 - Virginia Commonwealth University"><Decode><TranslatedText>0016 - Virginia Commonwealth University</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0017 - Montefiore NY"><Decode><TranslatedText>0017 - Montefiore NY</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0018 - Cornell University"><Decode><TranslatedText>0018 - Cornell University</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0019 - USC"><Decode><TranslatedText>0019 - USC</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="002 - UNC"><Decode><TranslatedText>002 - UNC</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0020 - Swedish Hospital"><Decode><TranslatedText>0020 - Swedish Hospital</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0021 - Piedmont Hospital Atlanta"><Decode><TranslatedText>0021 - Piedmont Hospital Atlanta</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0022 - Carolinas Health Care"><Decode><TranslatedText>0022 - Carolinas Health Care</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0023 - U Mass"><Decode><TranslatedText>0023 - U Mass</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0024 - Mercy Medical Center"><Decode><TranslatedText>0024 - Mercy Medical Center</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0025 - London Health Sciences"><Decode><TranslatedText>0025 - London Health Sciences</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="003 - SLU"><Decode><TranslatedText>003 - SLU</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="004 - Scripps"><Decode><TranslatedText>004 - Scripps</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="005 - UC, Denver"><Decode><TranslatedText>005 - UC, Denver</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="006 - Cincinnatti"><Decode><TranslatedText>006 - Cincinnatti</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="007 - Chicago - Aronsohn"><Decode><TranslatedText>007 - Chicago - Aronsohn</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="007 - Chicago - Jensen"><Decode><TranslatedText>007 - Chicago - Jensen</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="008 - Harvard"><Decode><TranslatedText>008 - Harvard</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="009 - Indiana"><Decode><TranslatedText>009 - Indiana</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="010 - Puerto Rico"><Decode><TranslatedText>010 - Puerto Rico</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="011 - Liver Associates of Texas"><Decode><TranslatedText>011 - Liver Associates of Texas</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="012 - Duke"><Decode><TranslatedText>012 - Duke</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="013 - Mass Gen"><Decode><TranslatedText>013 - Mass Gen</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="013 - University of Massachusetts"><Decode><TranslatedText>013 - University of Massachusetts</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="014 - Virginia Commonwealth University"><Decode><TranslatedText>014 - Virginia Commonwealth University</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="015 - Miami University"><Decode><TranslatedText>015 - Miami University</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="016 - Johns Hopkins University"><Decode><TranslatedText>016 - Johns Hopkins University</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="017 - Mt. Sinai University"><Decode><TranslatedText>017 - Mt. Sinai University</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="017 - Yale"><Decode><TranslatedText>017 - Yale</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="018 - Asheville Gastro"><Decode><TranslatedText>018 - Asheville Gastro</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="019 - Cornell University"><Decode><TranslatedText>019 - Cornell University</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="020 - University of Pennsylvania"><Decode><TranslatedText>020 - University of Pennsylvania</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="021 - UC, San Diego"><Decode><TranslatedText>021 - UC, San Diego</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="022 - UC, Los Angeles"><Decode><TranslatedText>022 - UC, Los Angeles</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="023 - Henry Ford Health System"><Decode><TranslatedText>023 - Henry Ford Health System</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="024 - Emory"><Decode><TranslatedText>024 - Emory</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="025 - UMICH"><Decode><TranslatedText>025 - UMICH</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="025 - University of Michigan"><Decode><TranslatedText>025 - University of Michigan</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="026 - Atlanta Medical Center"><Decode><TranslatedText>026 - Atlanta Medical Center</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="027 - Texas"><Decode><TranslatedText>027 - Texas</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="028 - Mayo, Rochester"><Decode><TranslatedText>028 - Mayo, Rochester</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="029 - Mayo, Arizona"><Decode><TranslatedText>029 - Mayo, Arizona</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="030 - Orlando"><Decode><TranslatedText>030 - Orlando</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="031 - Virginia Mason Medical Center"><Decode><TranslatedText>031 - Virginia Mason Medical Center</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="032 - Wilmington Gastro"><Decode><TranslatedText>032 - Wilmington Gastro</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="033 - Hudson River Healthcare"><Decode><TranslatedText>033 - Hudson River Healthcare</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="034 - Metropolitan Research"><Decode><TranslatedText>034 - Metropolitan Research</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="035 - U of Minnesota"><Decode><TranslatedText>035 - U of Minnesota</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="036 - Minnesota Gastro"><Decode><TranslatedText>036 - Minnesota Gastro</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="037 - Lakeshore Gastro"><Decode><TranslatedText>037 - Lakeshore Gastro</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="038 - Bon Secours St. Mary&#039;s"><Decode><TranslatedText>038 - Bon Secours St. Mary&#039;s</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="038 - Bon Secours St. Marys"><Decode><TranslatedText>038 - Bon Secours St. Marys</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="039 - UCSF"><Decode><TranslatedText>039 - UCSF</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="040 - Austin"><Decode><TranslatedText>040 - Austin</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="041 - University of Nebraska"><Decode><TranslatedText>041 - University of Nebraska</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="044 - Dartmouth"><Decode><TranslatedText>044 - Dartmouth</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="045 - Baylor"><Decode><TranslatedText>045 - Baylor</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="046 - Mountain View Medical"><Decode><TranslatedText>046 - Mountain View Medical</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="047 - Austin Hepatitis Center"><Decode><TranslatedText>047 - Austin Hepatitis Center</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="048 - Arkansas Liver Wellness"><Decode><TranslatedText>048 - Arkansas Liver Wellness</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="049 - Toronto Western"><Decode><TranslatedText>049 - Toronto Western</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="050 - Columbia"><Decode><TranslatedText>050 - Columbia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="051 - Integris OK"><Decode><TranslatedText>051 - Integris OK</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="051 - Ochsner Healthcare"><Decode><TranslatedText>051 - Ochsner Healthcare</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="052 - Northwestern"><Decode><TranslatedText>052 - Northwestern</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="053 - Southwest Care"><Decode><TranslatedText>053 - Southwest Care</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="054 - Mass General"><Decode><TranslatedText>054 - Mass General</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="056 - Jefferson"><Decode><TranslatedText>056 - Jefferson</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="057 - Mayo Jacksonville"><Decode><TranslatedText>057 - Mayo Jacksonville</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="058 - University of Washington"><Decode><TranslatedText>058 - University of Washington</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="059 - PMG Research Rocky Mt"><Decode><TranslatedText>059 - PMG Research Rocky Mt</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="060 - Georgetown"><Decode><TranslatedText>060 - Georgetown</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="061 - Mount Sinai"><Decode><TranslatedText>061 - Mount Sinai</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="062 - Howard"><Decode><TranslatedText>062 - Howard</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="063 - San Francisco General"><Decode><TranslatedText>063 - San Francisco General</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="064 - Stanford"><Decode><TranslatedText>064 - Stanford</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="065 - North Shore"><Decode><TranslatedText>065 - North Shore</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="066 - UF Jacksonville"><Decode><TranslatedText>066 - UF Jacksonville</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="067 - NYU"><Decode><TranslatedText>067 - NYU</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="201 - Rush"><Decode><TranslatedText>201 - Rush</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="202 - UC Davis"><Decode><TranslatedText>202 - UC Davis</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="301 - Hannover"><Decode><TranslatedText>301 - Hannover</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="302 - Frankfurt"><Decode><TranslatedText>302 - Frankfurt</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="303 - Aachen"><Decode><TranslatedText>303 - Aachen</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="401 - Israel"><Decode><TranslatedText>401 - Israel</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="999"><Decode><TranslatedText>999</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="999 - Test"><Decode><TranslatedText>999 - Test</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="Site 1"><Decode><TranslatedText>Site 1</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="users_complete.choices" Name="users_complete" DataType="text" redcap:Variable="users_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
