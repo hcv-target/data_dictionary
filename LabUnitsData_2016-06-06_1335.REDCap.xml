@@ -1,0 +1,2115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="http://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="Lab Units Data" AsOfDateTime="2016-06-06T13:35:12" CreationDateTime="2016-06-06T13:35:12" SourceSystem="REDCap" SourceSystemVersion="6.13.0">
+<Study OID="Project.LabUnitsData">
+<GlobalVariables>
+	<StudyName>Lab Units Data</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "Lab Units Data".</StudyDescription>
+	<ProtocolName>Lab Units Data</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel>:  [unit_name]</redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:Purpose>1</redcap:Purpose>
+	<redcap:PurposeOther>Coded data source</redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.LabUnitsData_2016-06-06_1335" Name="Lab Units Data" redcap:RecordIdField="record_id">
+	<FormDef OID="Form.units" Name="Lab Units" Repeating="No" redcap:FormName="units">
+		<ItemGroupRef ItemGroupOID="units.record_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="units.units_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="units.record_id" Name="Lab Units" Repeating="No">
+		<ItemRef ItemOID="record_id" Mandatory="No" redcap:Variable="record_id"/>
+		<ItemRef ItemOID="unit_name" Mandatory="No" redcap:Variable="unit_name"/>
+		<ItemRef ItemOID="unit_value" Mandatory="No" redcap:Variable="unit_value"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="units.units_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="units_complete" Mandatory="No" redcap:Variable="units_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_id" Name="record_id" DataType="text" Length="999" redcap:Variable="record_id" redcap:FieldType="text">
+		<Question><TranslatedText>Record ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="unit_name" Name="unit_name" DataType="text" Length="999" redcap:Variable="unit_name" redcap:FieldType="text">
+		<Question><TranslatedText>Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="unit_value" Name="unit_value" DataType="text" Length="999" redcap:Variable="unit_value" redcap:FieldType="text">
+		<Question><TranslatedText>Value</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="units_complete" Name="units_complete" DataType="text" Length="1" redcap:Variable="units_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="units_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="units_complete.choices" Name="units_complete" DataType="text" redcap:Variable="units_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+<ClinicalData StudyOID="Project.LabUnitsData" MetaDataVersionOID="Metadata.LabUnitsData_2016-06-06_1335">
+	<SubjectData SubjectKey="1">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="1"/>
+					<ItemData ItemOID="unit_name" Value="Thousand/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="2">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="2"/>
+					<ItemData ItemOID="unit_name" Value="x10E3/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="3">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="3"/>
+					<ItemData ItemOID="unit_name" Value="cells/uL"/>
+					<ItemData ItemOID="unit_value" Value="cells/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="4">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="4"/>
+					<ItemData ItemOID="unit_name" Value="%"/>
+					<ItemData ItemOID="unit_value" Value="%"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="5">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="5"/>
+					<ItemData ItemOID="unit_name" Value="Percent"/>
+					<ItemData ItemOID="unit_value" Value="%"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="6">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="6"/>
+					<ItemData ItemOID="unit_name" Value="10^9/L"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="7">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="7"/>
+					<ItemData ItemOID="unit_name" Value="g/dL"/>
+					<ItemData ItemOID="unit_value" Value="g/dL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="8">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="8"/>
+					<ItemData ItemOID="unit_name" Value="mg/dL"/>
+					<ItemData ItemOID="unit_value" Value="mg/dL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="9">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="9"/>
+					<ItemData ItemOID="unit_name" Value="IU/L"/>
+					<ItemData ItemOID="unit_value" Value="IU/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="10">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="10"/>
+					<ItemData ItemOID="unit_name" Value="/L"/>
+					<ItemData ItemOID="unit_value" Value="IU/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="11">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="11"/>
+					<ItemData ItemOID="unit_name" Value="Units/L"/>
+					<ItemData ItemOID="unit_value" Value="IU/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="12">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="12"/>
+					<ItemData ItemOID="unit_name" Value="U/L"/>
+					<ItemData ItemOID="unit_value" Value="IU/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="13">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="13"/>
+					<ItemData ItemOID="unit_name" Value="x1000"/>
+					<ItemData ItemOID="unit_value" Value="10^3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="14">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="14"/>
+					<ItemData ItemOID="unit_name" Value="IU/mL"/>
+					<ItemData ItemOID="unit_value" Value="IU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="15">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="15"/>
+					<ItemData ItemOID="unit_name" Value="kPa"/>
+					<ItemData ItemOID="unit_value" Value="kPa"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="16">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="16"/>
+					<ItemData ItemOID="unit_name" Value="none"/>
+					<ItemData ItemOID="unit_value" Value="none"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="17">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="17"/>
+					<ItemData ItemOID="unit_name" Value="dB/M"/>
+					<ItemData ItemOID="unit_value" Value="dB/M"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="22">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="22"/>
+					<ItemData ItemOID="unit_name" Value="% (calc)"/>
+					<ItemData ItemOID="unit_value" Value="%"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="23">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="23"/>
+					<ItemData ItemOID="unit_name" Value="% Sat"/>
+					<ItemData ItemOID="unit_value" Value="%"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="24">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="24"/>
+					<ItemData ItemOID="unit_name" Value="% Saturation"/>
+					<ItemData ItemOID="unit_value" Value="%"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="25">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="25"/>
+					<ItemData ItemOID="unit_name" Value="%PCV"/>
+					<ItemData ItemOID="unit_value" Value="%"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="26">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="26"/>
+					<ItemData ItemOID="unit_name" Value="(calc)"/>
+					<ItemData ItemOID="unit_value" Value="(calc)"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="27">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="27"/>
+					<ItemData ItemOID="unit_name" Value="/100 WBC"/>
+					<ItemData ItemOID="unit_value" Value="/100 WBC"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="28">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="28"/>
+					<ItemData ItemOID="unit_name" Value="/HPF"/>
+					<ItemData ItemOID="unit_value" Value="/HPF"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="29">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="29"/>
+					<ItemData ItemOID="unit_name" Value="/LPF"/>
+					<ItemData ItemOID="unit_value" Value="/LPF"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="30">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="30"/>
+					<ItemData ItemOID="unit_name" Value="/hpf"/>
+					<ItemData ItemOID="unit_value" Value="/hpf"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="31">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="31"/>
+					<ItemData ItemOID="unit_name" Value="EU/dL"/>
+					<ItemData ItemOID="unit_value" Value="EU/dL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="32">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="32"/>
+					<ItemData ItemOID="unit_name" Value="log IU/mL"/>
+					<ItemData ItemOID="unit_value" Value="log IU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="33">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="33"/>
+					<ItemData ItemOID="unit_name" Value="log copies/mL"/>
+					<ItemData ItemOID="unit_value" Value="log copies/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="34">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="34"/>
+					<ItemData ItemOID="unit_name" Value="logIU/mL"/>
+					<ItemData ItemOID="unit_value" Value="log IU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="35">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="35"/>
+					<ItemData ItemOID="unit_name" Value="Million/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^6/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="36">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="36"/>
+					<ItemData ItemOID="unit_name" Value="U"/>
+					<ItemData ItemOID="unit_value" Value="IU"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="37">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="37"/>
+					<ItemData ItemOID="unit_name" Value="U/mL"/>
+					<ItemData ItemOID="unit_value" Value="IU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="38">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="38"/>
+					<ItemData ItemOID="unit_name" Value="copies/mL"/>
+					<ItemData ItemOID="unit_value" Value="copies/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="39">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="39"/>
+					<ItemData ItemOID="unit_name" Value="cpy/mL"/>
+					<ItemData ItemOID="unit_value" Value="cpy/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="40">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="40"/>
+					<ItemData ItemOID="unit_name" Value="cu micron"/>
+					<ItemData ItemOID="unit_value" Value="cu micron"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="41">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="41"/>
+					<ItemData ItemOID="unit_name" Value="cumm"/>
+					<ItemData ItemOID="unit_value" Value="cumm"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="42">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="42"/>
+					<ItemData ItemOID="unit_name" Value="fL"/>
+					<ItemData ItemOID="unit_value" Value="fL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="43">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="43"/>
+					<ItemData ItemOID="unit_name" Value="g/dL (calc)"/>
+					<ItemData ItemOID="unit_value" Value="g/dL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="44">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="44"/>
+					<ItemData ItemOID="unit_name" Value="hours"/>
+					<ItemData ItemOID="unit_value" Value="hours"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="45">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="45"/>
+					<ItemData ItemOID="unit_name" Value="log"/>
+					<ItemData ItemOID="unit_value" Value="log"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="46">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="46"/>
+					<ItemData ItemOID="unit_name" Value="log IU"/>
+					<ItemData ItemOID="unit_value" Value="log IU"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="49">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="49"/>
+					<ItemData ItemOID="unit_name" Value="mEq/L"/>
+					<ItemData ItemOID="unit_value" Value="mmol/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="50">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="50"/>
+					<ItemData ItemOID="unit_name" Value="mIU/L"/>
+					<ItemData ItemOID="unit_value" Value="10^6 IU/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="51">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="51"/>
+					<ItemData ItemOID="unit_name" Value="mIU/mL"/>
+					<ItemData ItemOID="unit_value" Value="10^6 IU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="52">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="52"/>
+					<ItemData ItemOID="unit_name" Value="mL"/>
+					<ItemData ItemOID="unit_value" Value="mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="53">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="53"/>
+					<ItemData ItemOID="unit_name" Value="mL/min"/>
+					<ItemData ItemOID="unit_value" Value="mL/min"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="54">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="54"/>
+					<ItemData ItemOID="unit_name" Value="mL/min/1.73"/>
+					<ItemData ItemOID="unit_value" Value="mL/min/1.73"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="55">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="55"/>
+					<ItemData ItemOID="unit_name" Value="mL/min/1.73m2"/>
+					<ItemData ItemOID="unit_value" Value="mL/min/1.73m2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="56">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="56"/>
+					<ItemData ItemOID="unit_name" Value="mcg/dL"/>
+					<ItemData ItemOID="unit_value" Value="ug/dL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="57">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="57"/>
+					<ItemData ItemOID="unit_name" Value="mcmol/L"/>
+					<ItemData ItemOID="unit_value" Value="mcmol/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="58">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="58"/>
+					<ItemData ItemOID="unit_name" Value="mg/L"/>
+					<ItemData ItemOID="unit_value" Value="mg/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="59">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="59"/>
+					<ItemData ItemOID="unit_name" Value="mg/dL (calc)"/>
+					<ItemData ItemOID="unit_value" Value="mg/dL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="61">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="61"/>
+					<ItemData ItemOID="unit_name" Value="mill/cu mm"/>
+					<ItemData ItemOID="unit_value" Value="10^6/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="63">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="63"/>
+					<ItemData ItemOID="unit_name" Value="mm Hg"/>
+					<ItemData ItemOID="unit_value" Value="mm Hg"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="64">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="64"/>
+					<ItemData ItemOID="unit_name" Value="mmHg"/>
+					<ItemData ItemOID="unit_value" Value="mmHg"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="65">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="65"/>
+					<ItemData ItemOID="unit_name" Value="mmol/L"/>
+					<ItemData ItemOID="unit_value" Value="mmol/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="66">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="66"/>
+					<ItemData ItemOID="unit_name" Value="ng/dL"/>
+					<ItemData ItemOID="unit_value" Value="ng/dL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="67">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="67"/>
+					<ItemData ItemOID="unit_name" Value="ng/mL"/>
+					<ItemData ItemOID="unit_value" Value="ng/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="68">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="68"/>
+					<ItemData ItemOID="unit_name" Value="pg"/>
+					<ItemData ItemOID="unit_value" Value="pg"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="69">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="69"/>
+					<ItemData ItemOID="unit_name" Value="pg/mL"/>
+					<ItemData ItemOID="unit_value" Value="pg/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="70">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="70"/>
+					<ItemData ItemOID="unit_name" Value="sec"/>
+					<ItemData ItemOID="unit_value" Value="sec"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="71">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="71"/>
+					<ItemData ItemOID="unit_name" Value="seconds"/>
+					<ItemData ItemOID="unit_value" Value="seconds"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="72">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="72"/>
+					<ItemData ItemOID="unit_name" Value="thou/cu mm"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="73">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="73"/>
+					<ItemData ItemOID="unit_name" Value="uIU/mL"/>
+					<ItemData ItemOID="unit_value" Value="uIU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="74">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="74"/>
+					<ItemData ItemOID="unit_name" Value="ug/dL"/>
+					<ItemData ItemOID="unit_value" Value="ug/dL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="75">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="75"/>
+					<ItemData ItemOID="unit_name" Value="vol %"/>
+					<ItemData ItemOID="unit_value" Value="%"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="76">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="76"/>
+					<ItemData ItemOID="unit_name" Value="x10e6/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^6/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="77">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="77"/>
+					<ItemData ItemOID="unit_name" Value="10^3/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="78">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="78"/>
+					<ItemData ItemOID="unit_name" Value="10^6/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^6/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="79">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="79"/>
+					<ItemData ItemOID="unit_name" Value="1"/>
+					<ItemData ItemOID="unit_value" Value="1"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="80">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="80"/>
+					<ItemData ItemOID="unit_name" Value="#/HPF"/>
+					<ItemData ItemOID="unit_value" Value="#/HPF"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="81">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="81"/>
+					<ItemData ItemOID="unit_name" Value="#/LPF"/>
+					<ItemData ItemOID="unit_value" Value="#/LPF"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="82">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="82"/>
+					<ItemData ItemOID="unit_name" Value="Ratio"/>
+					<ItemData ItemOID="unit_value" Value="Ratio"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="83">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="83"/>
+					<ItemData ItemOID="unit_name" Value="kg"/>
+					<ItemData ItemOID="unit_value" Value="kg"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="84">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="84"/>
+					<ItemData ItemOID="unit_name" Value="(+)"/>
+					<ItemData ItemOID="unit_value" Value="(+)"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="85">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="85"/>
+					<ItemData ItemOID="unit_name" Value="/ 100 WBC"/>
+					<ItemData ItemOID="unit_value" Value="/ 100 WBC"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="86">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="86"/>
+					<ItemData ItemOID="unit_name" Value="10e12/L"/>
+					<ItemData ItemOID="unit_value" Value="10^12/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="87">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="87"/>
+					<ItemData ItemOID="unit_name" Value="10e9/L"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="88">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="88"/>
+					<ItemData ItemOID="unit_name" Value="% Activity"/>
+					<ItemData ItemOID="unit_value" Value="%"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="89">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="89"/>
+					<ItemData ItemOID="unit_name" Value="% Aggregation"/>
+					<ItemData ItemOID="unit_value" Value="% Aggregation"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="90">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="90"/>
+					<ItemData ItemOID="unit_name" Value="AI"/>
+					<ItemData ItemOID="unit_value" Value="AI"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="91">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="91"/>
+					<ItemData ItemOID="unit_name" Value="anti-Xa IU/mL"/>
+					<ItemData ItemOID="unit_value" Value="anti-Xa IU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="92">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="92"/>
+					<ItemData ItemOID="unit_name" Value="ARU"/>
+					<ItemData ItemOID="unit_value" Value="ARU"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="93">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="93"/>
+					<ItemData ItemOID="unit_name" Value="bpm"/>
+					<ItemData ItemOID="unit_value" Value="bpm"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="94">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="94"/>
+					<ItemData ItemOID="unit_name" Value="br/min"/>
+					<ItemData ItemOID="unit_value" Value="br/min"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="95">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="95"/>
+					<ItemData ItemOID="unit_name" Value="CAP"/>
+					<ItemData ItemOID="unit_value" Value="CAP"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="96">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="96"/>
+					<ItemData ItemOID="unit_name" Value="cc"/>
+					<ItemData ItemOID="unit_value" Value="cc"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="97">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="97"/>
+					<ItemData ItemOID="unit_name" Value="cm"/>
+					<ItemData ItemOID="unit_value" Value="cm"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="98">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="98"/>
+					<ItemData ItemOID="unit_name" Value="cm3"/>
+					<ItemData ItemOID="unit_value" Value="cm3"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="99">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="99"/>
+					<ItemData ItemOID="unit_name" Value="cmH20"/>
+					<ItemData ItemOID="unit_value" Value="cmH20"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="101">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="101"/>
+					<ItemData ItemOID="unit_name" Value="dyne-sec/cm5"/>
+					<ItemData ItemOID="unit_value" Value="dyne-sec/cm5"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="103">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="103"/>
+					<ItemData ItemOID="unit_name" Value="Fr"/>
+					<ItemData ItemOID="unit_value" Value="Fr"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="104">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="104"/>
+					<ItemData ItemOID="unit_name" Value="ft"/>
+					<ItemData ItemOID="unit_value" Value="ft"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="105">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="105"/>
+					<ItemData ItemOID="unit_name" Value="g"/>
+					<ItemData ItemOID="unit_value" Value="g"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="107">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="107"/>
+					<ItemData ItemOID="unit_name" Value="GPI IgA unit"/>
+					<ItemData ItemOID="unit_value" Value="GPI IgA unit"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="108">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="108"/>
+					<ItemData ItemOID="unit_name" Value="GPI IgG unit"/>
+					<ItemData ItemOID="unit_value" Value="GPI IgG unit"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="109">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="109"/>
+					<ItemData ItemOID="unit_name" Value="GPI IgM unit"/>
+					<ItemData ItemOID="unit_value" Value="GPI IgM unit"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="110">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="110"/>
+					<ItemData ItemOID="unit_name" Value="GPL-unit(s)/mL"/>
+					<ItemData ItemOID="unit_value" Value="GPL-unit(s)/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="112">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="112"/>
+					<ItemData ItemOID="unit_name" Value="index"/>
+					<ItemData ItemOID="unit_value" Value="index"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="113">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="113"/>
+					<ItemData ItemOID="unit_name" Value="Index Value"/>
+					<ItemData ItemOID="unit_value" Value="Index Value"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="115">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="115"/>
+					<ItemData ItemOID="unit_name" Value="kg/m2"/>
+					<ItemData ItemOID="unit_value" Value="kg/m2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="116">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="116"/>
+					<ItemData ItemOID="unit_name" Value="kU/L"/>
+					<ItemData ItemOID="unit_value" Value="kU/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="117">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="117"/>
+					<ItemData ItemOID="unit_name" Value="kU/L CLASS"/>
+					<ItemData ItemOID="unit_value" Value="kU/L CLASS"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="118">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="118"/>
+					<ItemData ItemOID="unit_name" Value="L/min"/>
+					<ItemData ItemOID="unit_value" Value="L/min"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="119">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="119"/>
+					<ItemData ItemOID="unit_name" Value="L/min/m2"/>
+					<ItemData ItemOID="unit_value" Value="L/min/m2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="121">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="121"/>
+					<ItemData ItemOID="unit_name" Value="m2"/>
+					<ItemData ItemOID="unit_value" Value="m2"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="122">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="122"/>
+					<ItemData ItemOID="unit_name" Value="mcg/mL FEU"/>
+					<ItemData ItemOID="unit_value" Value="mcg/mL FEU"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="123">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="123"/>
+					<ItemData ItemOID="unit_name" Value="mEq"/>
+					<ItemData ItemOID="unit_value" Value="mEq"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="124">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="124"/>
+					<ItemData ItemOID="unit_name" Value="mEq/kg/day"/>
+					<ItemData ItemOID="unit_value" Value="mEq/kg/day"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="126">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="126"/>
+					<ItemData ItemOID="unit_name" Value="mg/g Crea"/>
+					<ItemData ItemOID="unit_value" Value="mg/g Crea"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="127">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="127"/>
+					<ItemData ItemOID="unit_name" Value="mg/mg"/>
+					<ItemData ItemOID="unit_value" Value="mg/mg"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="128">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="128"/>
+					<ItemData ItemOID="unit_name" Value="mg/TV"/>
+					<ItemData ItemOID="unit_value" Value="mg/TV"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="129">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="129"/>
+					<ItemData ItemOID="unit_name" Value="million.units"/>
+					<ItemData ItemOID="unit_value" Value="10^6"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="131">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="131"/>
+					<ItemData ItemOID="unit_name" Value="mmol"/>
+					<ItemData ItemOID="unit_value" Value="mmol"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="133">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="133"/>
+					<ItemData ItemOID="unit_name" Value="% Modulation"/>
+					<ItemData ItemOID="unit_value" Value="%"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="134">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="134"/>
+					<ItemData ItemOID="unit_name" Value="ng/mL ATP"/>
+					<ItemData ItemOID="unit_value" Value="ng/mL ATP"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="135">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="135"/>
+					<ItemData ItemOID="unit_name" Value="nm"/>
+					<ItemData ItemOID="unit_value" Value="nm"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="136">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="136"/>
+					<ItemData ItemOID="unit_name" Value="nm BCE"/>
+					<ItemData ItemOID="unit_value" Value="nm BCE"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="137">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="137"/>
+					<ItemData ItemOID="unit_name" Value="nM BCE/mM Cr"/>
+					<ItemData ItemOID="unit_value" Value="nM BCE/mM Cr"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="138">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="138"/>
+					<ItemData ItemOID="unit_name" Value="nmol/h/mg protein"/>
+					<ItemData ItemOID="unit_value" Value="nmol/h/mg protein"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="139">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="139"/>
+					<ItemData ItemOID="unit_name" Value="nmol/L"/>
+					<ItemData ItemOID="unit_value" Value="nmol/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="140">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="140"/>
+					<ItemData ItemOID="unit_name" Value="% Norm Activity"/>
+					<ItemData ItemOID="unit_value" Value="%"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="143">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="143"/>
+					<ItemData ItemOID="unit_name" Value="pmol/L"/>
+					<ItemData ItemOID="unit_value" Value="pmol/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="144">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="144"/>
+					<ItemData ItemOID="unit_name" Value="ppm"/>
+					<ItemData ItemOID="unit_value" Value="ppm"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="145">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="145"/>
+					<ItemData ItemOID="unit_name" Value="psi"/>
+					<ItemData ItemOID="unit_value" Value="psi"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="147">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="147"/>
+					<ItemData ItemOID="unit_name" Value="rel. to saline"/>
+					<ItemData ItemOID="unit_value" Value="rel. to saline"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="148">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="148"/>
+					<ItemData ItemOID="unit_name" Value="rpm"/>
+					<ItemData ItemOID="unit_value" Value="rpm"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="149">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="149"/>
+					<ItemData ItemOID="unit_name" Value="ug/gm"/>
+					<ItemData ItemOID="unit_value" Value="ug/gm"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="150">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="150"/>
+					<ItemData ItemOID="unit_name" Value="ug/L"/>
+					<ItemData ItemOID="unit_value" Value="ug/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="151">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="151"/>
+					<ItemData ItemOID="unit_name" Value="ug/mL"/>
+					<ItemData ItemOID="unit_value" Value="ug/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="153">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="153"/>
+					<ItemData ItemOID="unit_name" Value="umol/L"/>
+					<ItemData ItemOID="unit_value" Value="umol/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="154">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="154"/>
+					<ItemData ItemOID="unit_name" Value="Units"/>
+					<ItemData ItemOID="unit_value" Value="IU"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="155">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="155"/>
+					<ItemData ItemOID="unit_name" Value="unit(s)/10 E 12 RBC"/>
+					<ItemData ItemOID="unit_value" Value="IU/10^12 RBC"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="156">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="156"/>
+					<ItemData ItemOID="unit_name" Value="unit(s)/L"/>
+					<ItemData ItemOID="unit_value" Value="IU/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="157">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="157"/>
+					<ItemData ItemOID="unit_name" Value="unit(s)/ml"/>
+					<ItemData ItemOID="unit_value" Value="IU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="158">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="158"/>
+					<ItemData ItemOID="unit_name" Value="unit(s) / mL"/>
+					<ItemData ItemOID="unit_value" Value="IU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="159">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="159"/>
+					<ItemData ItemOID="unit_name" Value="Units/mL RBC"/>
+					<ItemData ItemOID="unit_value" Value="IU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="160">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="160"/>
+					<ItemData ItemOID="unit_name" Value="unknown unit"/>
+					<ItemData ItemOID="unit_value" Value="unknown unit"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="161">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="161"/>
+					<ItemData ItemOID="unit_name" Value="uU/mL"/>
+					<ItemData ItemOID="unit_value" Value="uU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="162">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="162"/>
+					<ItemData ItemOID="unit_name" Value="x10e9/L"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="163">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="163"/>
+					<ItemData ItemOID="unit_name" Value="gm/dl"/>
+					<ItemData ItemOID="unit_value" Value="g/dL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="164">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="164"/>
+					<ItemData ItemOID="unit_name" Value="K/mcL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="165">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="165"/>
+					<ItemData ItemOID="unit_name" Value="x1000/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="166">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="166"/>
+					<ItemData ItemOID="unit_name" Value="K/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="167">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="167"/>
+					<ItemData ItemOID="unit_name" Value="k/cumm"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="168">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="168"/>
+					<ItemData ItemOID="unit_name" Value="x10^9/L"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="169">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="169"/>
+					<ItemData ItemOID="unit_name" Value="K/cu mm"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="170">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="170"/>
+					<ItemData ItemOID="unit_name" Value="1000/mm3"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="171">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="171"/>
+					<ItemData ItemOID="unit_name" Value="10^3/mL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="172">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="172"/>
+					<ItemData ItemOID="unit_name" Value="THO/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="173">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="173"/>
+					<ItemData ItemOID="unit_name" Value="x10^3/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="174">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="174"/>
+					<ItemData ItemOID="unit_name" Value="unit(s)/L"/>
+					<ItemData ItemOID="unit_value" Value="IU/L"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="175">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="175"/>
+					<ItemData ItemOID="unit_name" Value="10e9/L"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="176">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="176"/>
+					<ItemData ItemOID="unit_name" Value="/nL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="177">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="177"/>
+					<ItemData ItemOID="unit_name" Value="/ nL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="178">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="178"/>
+					<ItemData ItemOID="unit_name" Value="th/mm3"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="179">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="179"/>
+					<ItemData ItemOID="unit_name" Value="10E3/mcL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="180">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="180"/>
+					<ItemData ItemOID="unit_name" Value="Thous/mcL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="181">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="181"/>
+					<ItemData ItemOID="unit_name" Value="Thousand/mcL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="182">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="182"/>
+					<ItemData ItemOID="unit_name" Value="10^3/mcl"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="183">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="183"/>
+					<ItemData ItemOID="unit_name" Value="x10(3)/mcL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="185">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="185"/>
+					<ItemData ItemOID="unit_name" Value="log10 IU/mL"/>
+					<ItemData ItemOID="unit_value" Value="log IU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="186">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="186"/>
+					<ItemData ItemOID="unit_name" Value="[iU]/mL"/>
+					<ItemData ItemOID="unit_value" Value="IU/mL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="187">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="187"/>
+					<ItemData ItemOID="unit_name" Value="/uL"/>
+					<ItemData ItemOID="unit_value" Value="cells/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="188">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="188"/>
+					<ItemData ItemOID="unit_name" Value="K/MM3"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="189">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="189"/>
+					<ItemData ItemOID="unit_name" Value="mg/dl"/>
+					<ItemData ItemOID="unit_value" Value="mg/dL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="190">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="190"/>
+					<ItemData ItemOID="unit_name" Value="1000/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="191">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="191"/>
+					<ItemData ItemOID="unit_name" Value="xuln"/>
+					<ItemData ItemOID="unit_value" Value="xuln"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="192">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="192"/>
+					<ItemData ItemOID="unit_name" Value="10*9/L"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="193">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="193"/>
+					<ItemData ItemOID="unit_name" Value="x10(3)/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+	<SubjectData SubjectKey="194">
+			<FormData FormOID="Form.units" FormRepeatKey="1">
+				<ItemGroupData ItemGroupOID="units.record_id" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="record_id" Value="194"/>
+					<ItemData ItemOID="unit_name" Value="10*3/uL"/>
+					<ItemData ItemOID="unit_value" Value="10^3/uL"/>
+				</ItemGroupData>
+				<ItemGroupData ItemGroupOID="units.units_complete" ItemGroupRepeatKey="1">
+					<ItemData ItemOID="units_complete" Value="2"/>
+				</ItemGroupData>
+			</FormData>
+	</SubjectData>
+</ClinicalData>
+</ODM>

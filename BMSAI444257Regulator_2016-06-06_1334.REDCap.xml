@@ -1,0 +1,1863 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="http://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="BMS AI444-257 Regulatory Documents" AsOfDateTime="2016-06-06T13:34:39" CreationDateTime="2016-06-06T13:34:39" SourceSystem="REDCap" SourceSystemVersion="6.13.0">
+<Study OID="Project.BMSAI444257RegulatoryDocuments">
+<GlobalVariables>
+	<StudyName>BMS AI444-257 Regulatory Documents</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "BMS AI444-257 Regulatory Documents".</StudyDescription>
+	<ProtocolName>BMS AI444-257 Regulatory Documents</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel>([site_name] - [site_pi_lastname])</redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField>site_bms_id</redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:Purpose>4</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.BMSAI444257RegulatoryDocuments_2016-06-06_1334" Name="BMS AI444-257 Regulatory Documents" redcap:RecordIdField="group_id">
+	<Protocol>
+		<StudyEventRef StudyEventOID="Event.1_arm_1" OrderNumber="1" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.2_arm_1" OrderNumber="2" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.3_arm_1" OrderNumber="3" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.4_arm_1" OrderNumber="4" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.5_arm_1" OrderNumber="5" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.6_arm_1" OrderNumber="6" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.7_arm_1" OrderNumber="7" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.8_arm_1" OrderNumber="8" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.9_arm_1" OrderNumber="9" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.10_arm_1" OrderNumber="10" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.11_arm_1" OrderNumber="11" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.12_arm_1" OrderNumber="12" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.13_arm_1" OrderNumber="13" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.14_arm_1" OrderNumber="14" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.15_arm_1" OrderNumber="15" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.16_arm_1" OrderNumber="16" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.17_arm_1" OrderNumber="17" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.18_arm_1" OrderNumber="18" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.19_arm_1" OrderNumber="19" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.20_arm_1" OrderNumber="20" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.21_arm_1" OrderNumber="21" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.22_arm_1" OrderNumber="22" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.23_arm_1" OrderNumber="23" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.24_arm_1" OrderNumber="24" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.25_arm_1" OrderNumber="25" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.26_arm_1" OrderNumber="26" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.27_arm_1" OrderNumber="27" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.28_arm_1" OrderNumber="28" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.29_arm_1" OrderNumber="29" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.30_arm_1" OrderNumber="30" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.31_arm_1" OrderNumber="31" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.32_arm_1" OrderNumber="32" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.33_arm_1" OrderNumber="33" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.34_arm_1" OrderNumber="34" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.35_arm_1" OrderNumber="35" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.36_arm_1" OrderNumber="36" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.37_arm_1" OrderNumber="37" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.38_arm_1" OrderNumber="38" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.39_arm_1" OrderNumber="39" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.40_arm_1" OrderNumber="40" Mandatory="No"/>
+	</Protocol>
+	<StudyEventDef OID="Event.1_arm_1" Name="1" Type="Common" Repeating="No" redcap:EventName="1" redcap:UniqueEventName="1_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="0" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.site" OrderNumber="1" Mandatory="No" redcap:FormName="site"/>
+		<FormRef FormOID="Form.site_status" OrderNumber="2" Mandatory="No" redcap:FormName="site_status"/>
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="3" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="4" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.irb_roster" OrderNumber="5" Mandatory="No" redcap:FormName="irb_roster"/>
+		<FormRef FormOID="Form.irb_correspondence" OrderNumber="6" Mandatory="No" redcap:FormName="irb_correspondence"/>
+		<FormRef FormOID="Form.fda_1572" OrderNumber="7" Mandatory="No" redcap:FormName="fda_1572"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="8" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.contract_cda" OrderNumber="9" Mandatory="No" redcap:FormName="contract_cda"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="10" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="11" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="12" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.delegation_of_authority_log" OrderNumber="13" Mandatory="No" redcap:FormName="delegation_of_authority_log"/>
+		<FormRef FormOID="Form.subject_enrollment_screening_log" OrderNumber="14" Mandatory="No" redcap:FormName="subject_enrollment_screening_log"/>
+		<FormRef FormOID="Form.monitoring_visit_documentation" OrderNumber="15" Mandatory="No" redcap:FormName="monitoring_visit_documentation"/>
+		<FormRef FormOID="Form.ip_shipping_documents" OrderNumber="16" Mandatory="No" redcap:FormName="ip_shipping_documents"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="17" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.drug_request_form" OrderNumber="18" Mandatory="No" redcap:FormName="drug_request_form"/>
+		<FormRef FormOID="Form.greenlight_document" OrderNumber="19" Mandatory="No" redcap:FormName="greenlight_document"/>
+		<FormRef FormOID="Form.temperature_logs" OrderNumber="20" Mandatory="No" redcap:FormName="temperature_logs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="21" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="22" Mandatory="No" redcap:FormName="training_logs"/>
+		<FormRef FormOID="Form.local_lab_certifications" OrderNumber="23" Mandatory="No" redcap:FormName="local_lab_certifications"/>
+		<FormRef FormOID="Form.local_lab_cv" OrderNumber="24" Mandatory="No" redcap:FormName="local_lab_cv"/>
+		<FormRef FormOID="Form.local_lab_ref_ranges" OrderNumber="25" Mandatory="No" redcap:FormName="local_lab_ref_ranges"/>
+		<FormRef FormOID="Form.user_activations" OrderNumber="26" Mandatory="No" redcap:FormName="user_activations"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.2_arm_1" Name="2" Type="Common" Repeating="No" redcap:EventName="2" redcap:UniqueEventName="2_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="7" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.site_status" OrderNumber="1" Mandatory="No" redcap:FormName="site_status"/>
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="3" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.irb_roster" OrderNumber="4" Mandatory="No" redcap:FormName="irb_roster"/>
+		<FormRef FormOID="Form.irb_correspondence" OrderNumber="5" Mandatory="No" redcap:FormName="irb_correspondence"/>
+		<FormRef FormOID="Form.fda_1572" OrderNumber="6" Mandatory="No" redcap:FormName="fda_1572"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="7" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.contract_cda" OrderNumber="8" Mandatory="No" redcap:FormName="contract_cda"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="9" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="10" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="11" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.delegation_of_authority_log" OrderNumber="12" Mandatory="No" redcap:FormName="delegation_of_authority_log"/>
+		<FormRef FormOID="Form.subject_enrollment_screening_log" OrderNumber="13" Mandatory="No" redcap:FormName="subject_enrollment_screening_log"/>
+		<FormRef FormOID="Form.monitoring_visit_documentation" OrderNumber="14" Mandatory="No" redcap:FormName="monitoring_visit_documentation"/>
+		<FormRef FormOID="Form.ip_shipping_documents" OrderNumber="15" Mandatory="No" redcap:FormName="ip_shipping_documents"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="16" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.drug_request_form" OrderNumber="17" Mandatory="No" redcap:FormName="drug_request_form"/>
+		<FormRef FormOID="Form.greenlight_document" OrderNumber="18" Mandatory="No" redcap:FormName="greenlight_document"/>
+		<FormRef FormOID="Form.temperature_logs" OrderNumber="19" Mandatory="No" redcap:FormName="temperature_logs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="20" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="21" Mandatory="No" redcap:FormName="training_logs"/>
+		<FormRef FormOID="Form.local_lab_certifications" OrderNumber="22" Mandatory="No" redcap:FormName="local_lab_certifications"/>
+		<FormRef FormOID="Form.local_lab_cv" OrderNumber="23" Mandatory="No" redcap:FormName="local_lab_cv"/>
+		<FormRef FormOID="Form.local_lab_ref_ranges" OrderNumber="24" Mandatory="No" redcap:FormName="local_lab_ref_ranges"/>
+		<FormRef FormOID="Form.user_activations" OrderNumber="25" Mandatory="No" redcap:FormName="user_activations"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.3_arm_1" Name="3" Type="Common" Repeating="No" redcap:EventName="3" redcap:UniqueEventName="3_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="14" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.site_status" OrderNumber="1" Mandatory="No" redcap:FormName="site_status"/>
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="3" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.irb_roster" OrderNumber="4" Mandatory="No" redcap:FormName="irb_roster"/>
+		<FormRef FormOID="Form.irb_correspondence" OrderNumber="5" Mandatory="No" redcap:FormName="irb_correspondence"/>
+		<FormRef FormOID="Form.fda_1572" OrderNumber="6" Mandatory="No" redcap:FormName="fda_1572"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="7" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.contract_cda" OrderNumber="8" Mandatory="No" redcap:FormName="contract_cda"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="9" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="10" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="11" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.delegation_of_authority_log" OrderNumber="12" Mandatory="No" redcap:FormName="delegation_of_authority_log"/>
+		<FormRef FormOID="Form.subject_enrollment_screening_log" OrderNumber="13" Mandatory="No" redcap:FormName="subject_enrollment_screening_log"/>
+		<FormRef FormOID="Form.monitoring_visit_documentation" OrderNumber="14" Mandatory="No" redcap:FormName="monitoring_visit_documentation"/>
+		<FormRef FormOID="Form.ip_shipping_documents" OrderNumber="15" Mandatory="No" redcap:FormName="ip_shipping_documents"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="16" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.drug_request_form" OrderNumber="17" Mandatory="No" redcap:FormName="drug_request_form"/>
+		<FormRef FormOID="Form.greenlight_document" OrderNumber="18" Mandatory="No" redcap:FormName="greenlight_document"/>
+		<FormRef FormOID="Form.temperature_logs" OrderNumber="19" Mandatory="No" redcap:FormName="temperature_logs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="20" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="21" Mandatory="No" redcap:FormName="training_logs"/>
+		<FormRef FormOID="Form.local_lab_certifications" OrderNumber="22" Mandatory="No" redcap:FormName="local_lab_certifications"/>
+		<FormRef FormOID="Form.local_lab_cv" OrderNumber="23" Mandatory="No" redcap:FormName="local_lab_cv"/>
+		<FormRef FormOID="Form.local_lab_ref_ranges" OrderNumber="24" Mandatory="No" redcap:FormName="local_lab_ref_ranges"/>
+		<FormRef FormOID="Form.user_activations" OrderNumber="25" Mandatory="No" redcap:FormName="user_activations"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.4_arm_1" Name="4" Type="Common" Repeating="No" redcap:EventName="4" redcap:UniqueEventName="4_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="21" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.site_status" OrderNumber="1" Mandatory="No" redcap:FormName="site_status"/>
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="3" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.irb_roster" OrderNumber="4" Mandatory="No" redcap:FormName="irb_roster"/>
+		<FormRef FormOID="Form.irb_correspondence" OrderNumber="5" Mandatory="No" redcap:FormName="irb_correspondence"/>
+		<FormRef FormOID="Form.fda_1572" OrderNumber="6" Mandatory="No" redcap:FormName="fda_1572"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="7" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.contract_cda" OrderNumber="8" Mandatory="No" redcap:FormName="contract_cda"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="9" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="10" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="11" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.delegation_of_authority_log" OrderNumber="12" Mandatory="No" redcap:FormName="delegation_of_authority_log"/>
+		<FormRef FormOID="Form.subject_enrollment_screening_log" OrderNumber="13" Mandatory="No" redcap:FormName="subject_enrollment_screening_log"/>
+		<FormRef FormOID="Form.monitoring_visit_documentation" OrderNumber="14" Mandatory="No" redcap:FormName="monitoring_visit_documentation"/>
+		<FormRef FormOID="Form.ip_shipping_documents" OrderNumber="15" Mandatory="No" redcap:FormName="ip_shipping_documents"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="16" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.drug_request_form" OrderNumber="17" Mandatory="No" redcap:FormName="drug_request_form"/>
+		<FormRef FormOID="Form.greenlight_document" OrderNumber="18" Mandatory="No" redcap:FormName="greenlight_document"/>
+		<FormRef FormOID="Form.temperature_logs" OrderNumber="19" Mandatory="No" redcap:FormName="temperature_logs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="20" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="21" Mandatory="No" redcap:FormName="training_logs"/>
+		<FormRef FormOID="Form.local_lab_certifications" OrderNumber="22" Mandatory="No" redcap:FormName="local_lab_certifications"/>
+		<FormRef FormOID="Form.local_lab_cv" OrderNumber="23" Mandatory="No" redcap:FormName="local_lab_cv"/>
+		<FormRef FormOID="Form.local_lab_ref_ranges" OrderNumber="24" Mandatory="No" redcap:FormName="local_lab_ref_ranges"/>
+		<FormRef FormOID="Form.user_activations" OrderNumber="25" Mandatory="No" redcap:FormName="user_activations"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.5_arm_1" Name="5" Type="Common" Repeating="No" redcap:EventName="5" redcap:UniqueEventName="5_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="28" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.site_status" OrderNumber="1" Mandatory="No" redcap:FormName="site_status"/>
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="3" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.irb_roster" OrderNumber="4" Mandatory="No" redcap:FormName="irb_roster"/>
+		<FormRef FormOID="Form.irb_correspondence" OrderNumber="5" Mandatory="No" redcap:FormName="irb_correspondence"/>
+		<FormRef FormOID="Form.fda_1572" OrderNumber="6" Mandatory="No" redcap:FormName="fda_1572"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="7" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.contract_cda" OrderNumber="8" Mandatory="No" redcap:FormName="contract_cda"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="9" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="10" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="11" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.delegation_of_authority_log" OrderNumber="12" Mandatory="No" redcap:FormName="delegation_of_authority_log"/>
+		<FormRef FormOID="Form.subject_enrollment_screening_log" OrderNumber="13" Mandatory="No" redcap:FormName="subject_enrollment_screening_log"/>
+		<FormRef FormOID="Form.monitoring_visit_documentation" OrderNumber="14" Mandatory="No" redcap:FormName="monitoring_visit_documentation"/>
+		<FormRef FormOID="Form.ip_shipping_documents" OrderNumber="15" Mandatory="No" redcap:FormName="ip_shipping_documents"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="16" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.drug_request_form" OrderNumber="17" Mandatory="No" redcap:FormName="drug_request_form"/>
+		<FormRef FormOID="Form.greenlight_document" OrderNumber="18" Mandatory="No" redcap:FormName="greenlight_document"/>
+		<FormRef FormOID="Form.temperature_logs" OrderNumber="19" Mandatory="No" redcap:FormName="temperature_logs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="20" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="21" Mandatory="No" redcap:FormName="training_logs"/>
+		<FormRef FormOID="Form.local_lab_certifications" OrderNumber="22" Mandatory="No" redcap:FormName="local_lab_certifications"/>
+		<FormRef FormOID="Form.local_lab_cv" OrderNumber="23" Mandatory="No" redcap:FormName="local_lab_cv"/>
+		<FormRef FormOID="Form.local_lab_ref_ranges" OrderNumber="24" Mandatory="No" redcap:FormName="local_lab_ref_ranges"/>
+		<FormRef FormOID="Form.user_activations" OrderNumber="25" Mandatory="No" redcap:FormName="user_activations"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.6_arm_1" Name="6" Type="Common" Repeating="No" redcap:EventName="6" redcap:UniqueEventName="6_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="35" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.site_status" OrderNumber="1" Mandatory="No" redcap:FormName="site_status"/>
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="3" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.irb_roster" OrderNumber="4" Mandatory="No" redcap:FormName="irb_roster"/>
+		<FormRef FormOID="Form.irb_correspondence" OrderNumber="5" Mandatory="No" redcap:FormName="irb_correspondence"/>
+		<FormRef FormOID="Form.fda_1572" OrderNumber="6" Mandatory="No" redcap:FormName="fda_1572"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="7" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.contract_cda" OrderNumber="8" Mandatory="No" redcap:FormName="contract_cda"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="9" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="10" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="11" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.delegation_of_authority_log" OrderNumber="12" Mandatory="No" redcap:FormName="delegation_of_authority_log"/>
+		<FormRef FormOID="Form.subject_enrollment_screening_log" OrderNumber="13" Mandatory="No" redcap:FormName="subject_enrollment_screening_log"/>
+		<FormRef FormOID="Form.monitoring_visit_documentation" OrderNumber="14" Mandatory="No" redcap:FormName="monitoring_visit_documentation"/>
+		<FormRef FormOID="Form.ip_shipping_documents" OrderNumber="15" Mandatory="No" redcap:FormName="ip_shipping_documents"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="16" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.drug_request_form" OrderNumber="17" Mandatory="No" redcap:FormName="drug_request_form"/>
+		<FormRef FormOID="Form.greenlight_document" OrderNumber="18" Mandatory="No" redcap:FormName="greenlight_document"/>
+		<FormRef FormOID="Form.temperature_logs" OrderNumber="19" Mandatory="No" redcap:FormName="temperature_logs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="20" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="21" Mandatory="No" redcap:FormName="training_logs"/>
+		<FormRef FormOID="Form.local_lab_certifications" OrderNumber="22" Mandatory="No" redcap:FormName="local_lab_certifications"/>
+		<FormRef FormOID="Form.local_lab_cv" OrderNumber="23" Mandatory="No" redcap:FormName="local_lab_cv"/>
+		<FormRef FormOID="Form.local_lab_ref_ranges" OrderNumber="24" Mandatory="No" redcap:FormName="local_lab_ref_ranges"/>
+		<FormRef FormOID="Form.user_activations" OrderNumber="25" Mandatory="No" redcap:FormName="user_activations"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.7_arm_1" Name="7" Type="Common" Repeating="No" redcap:EventName="7" redcap:UniqueEventName="7_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="42" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.irb_roster" OrderNumber="3" Mandatory="No" redcap:FormName="irb_roster"/>
+		<FormRef FormOID="Form.irb_correspondence" OrderNumber="4" Mandatory="No" redcap:FormName="irb_correspondence"/>
+		<FormRef FormOID="Form.fda_1572" OrderNumber="5" Mandatory="No" redcap:FormName="fda_1572"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="6" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.contract_cda" OrderNumber="7" Mandatory="No" redcap:FormName="contract_cda"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="8" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="9" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="10" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.delegation_of_authority_log" OrderNumber="11" Mandatory="No" redcap:FormName="delegation_of_authority_log"/>
+		<FormRef FormOID="Form.subject_enrollment_screening_log" OrderNumber="12" Mandatory="No" redcap:FormName="subject_enrollment_screening_log"/>
+		<FormRef FormOID="Form.monitoring_visit_documentation" OrderNumber="13" Mandatory="No" redcap:FormName="monitoring_visit_documentation"/>
+		<FormRef FormOID="Form.ip_shipping_documents" OrderNumber="14" Mandatory="No" redcap:FormName="ip_shipping_documents"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="15" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.drug_request_form" OrderNumber="16" Mandatory="No" redcap:FormName="drug_request_form"/>
+		<FormRef FormOID="Form.greenlight_document" OrderNumber="17" Mandatory="No" redcap:FormName="greenlight_document"/>
+		<FormRef FormOID="Form.temperature_logs" OrderNumber="18" Mandatory="No" redcap:FormName="temperature_logs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="19" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="20" Mandatory="No" redcap:FormName="training_logs"/>
+		<FormRef FormOID="Form.local_lab_certifications" OrderNumber="21" Mandatory="No" redcap:FormName="local_lab_certifications"/>
+		<FormRef FormOID="Form.local_lab_cv" OrderNumber="22" Mandatory="No" redcap:FormName="local_lab_cv"/>
+		<FormRef FormOID="Form.local_lab_ref_ranges" OrderNumber="23" Mandatory="No" redcap:FormName="local_lab_ref_ranges"/>
+		<FormRef FormOID="Form.user_activations" OrderNumber="24" Mandatory="No" redcap:FormName="user_activations"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.8_arm_1" Name="8" Type="Common" Repeating="No" redcap:EventName="8" redcap:UniqueEventName="8_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="49" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.irb_roster" OrderNumber="3" Mandatory="No" redcap:FormName="irb_roster"/>
+		<FormRef FormOID="Form.irb_correspondence" OrderNumber="4" Mandatory="No" redcap:FormName="irb_correspondence"/>
+		<FormRef FormOID="Form.fda_1572" OrderNumber="5" Mandatory="No" redcap:FormName="fda_1572"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="6" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.contract_cda" OrderNumber="7" Mandatory="No" redcap:FormName="contract_cda"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="8" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="9" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="10" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.delegation_of_authority_log" OrderNumber="11" Mandatory="No" redcap:FormName="delegation_of_authority_log"/>
+		<FormRef FormOID="Form.subject_enrollment_screening_log" OrderNumber="12" Mandatory="No" redcap:FormName="subject_enrollment_screening_log"/>
+		<FormRef FormOID="Form.monitoring_visit_documentation" OrderNumber="13" Mandatory="No" redcap:FormName="monitoring_visit_documentation"/>
+		<FormRef FormOID="Form.ip_shipping_documents" OrderNumber="14" Mandatory="No" redcap:FormName="ip_shipping_documents"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="15" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.drug_request_form" OrderNumber="16" Mandatory="No" redcap:FormName="drug_request_form"/>
+		<FormRef FormOID="Form.greenlight_document" OrderNumber="17" Mandatory="No" redcap:FormName="greenlight_document"/>
+		<FormRef FormOID="Form.temperature_logs" OrderNumber="18" Mandatory="No" redcap:FormName="temperature_logs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="19" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="20" Mandatory="No" redcap:FormName="training_logs"/>
+		<FormRef FormOID="Form.local_lab_certifications" OrderNumber="21" Mandatory="No" redcap:FormName="local_lab_certifications"/>
+		<FormRef FormOID="Form.local_lab_cv" OrderNumber="22" Mandatory="No" redcap:FormName="local_lab_cv"/>
+		<FormRef FormOID="Form.local_lab_ref_ranges" OrderNumber="23" Mandatory="No" redcap:FormName="local_lab_ref_ranges"/>
+		<FormRef FormOID="Form.user_activations" OrderNumber="24" Mandatory="No" redcap:FormName="user_activations"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.9_arm_1" Name="9" Type="Common" Repeating="No" redcap:EventName="9" redcap:UniqueEventName="9_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="56" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.irb_roster" OrderNumber="3" Mandatory="No" redcap:FormName="irb_roster"/>
+		<FormRef FormOID="Form.irb_correspondence" OrderNumber="4" Mandatory="No" redcap:FormName="irb_correspondence"/>
+		<FormRef FormOID="Form.fda_1572" OrderNumber="5" Mandatory="No" redcap:FormName="fda_1572"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="6" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.contract_cda" OrderNumber="7" Mandatory="No" redcap:FormName="contract_cda"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="8" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="9" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="10" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.delegation_of_authority_log" OrderNumber="11" Mandatory="No" redcap:FormName="delegation_of_authority_log"/>
+		<FormRef FormOID="Form.subject_enrollment_screening_log" OrderNumber="12" Mandatory="No" redcap:FormName="subject_enrollment_screening_log"/>
+		<FormRef FormOID="Form.monitoring_visit_documentation" OrderNumber="13" Mandatory="No" redcap:FormName="monitoring_visit_documentation"/>
+		<FormRef FormOID="Form.ip_shipping_documents" OrderNumber="14" Mandatory="No" redcap:FormName="ip_shipping_documents"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="15" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.drug_request_form" OrderNumber="16" Mandatory="No" redcap:FormName="drug_request_form"/>
+		<FormRef FormOID="Form.greenlight_document" OrderNumber="17" Mandatory="No" redcap:FormName="greenlight_document"/>
+		<FormRef FormOID="Form.temperature_logs" OrderNumber="18" Mandatory="No" redcap:FormName="temperature_logs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="19" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="20" Mandatory="No" redcap:FormName="training_logs"/>
+		<FormRef FormOID="Form.local_lab_certifications" OrderNumber="21" Mandatory="No" redcap:FormName="local_lab_certifications"/>
+		<FormRef FormOID="Form.local_lab_cv" OrderNumber="22" Mandatory="No" redcap:FormName="local_lab_cv"/>
+		<FormRef FormOID="Form.local_lab_ref_ranges" OrderNumber="23" Mandatory="No" redcap:FormName="local_lab_ref_ranges"/>
+		<FormRef FormOID="Form.user_activations" OrderNumber="24" Mandatory="No" redcap:FormName="user_activations"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.10_arm_1" Name="10" Type="Common" Repeating="No" redcap:EventName="10" redcap:UniqueEventName="10_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="63" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.irb_roster" OrderNumber="3" Mandatory="No" redcap:FormName="irb_roster"/>
+		<FormRef FormOID="Form.irb_correspondence" OrderNumber="4" Mandatory="No" redcap:FormName="irb_correspondence"/>
+		<FormRef FormOID="Form.fda_1572" OrderNumber="5" Mandatory="No" redcap:FormName="fda_1572"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="6" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.contract_cda" OrderNumber="7" Mandatory="No" redcap:FormName="contract_cda"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="8" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="9" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="10" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.delegation_of_authority_log" OrderNumber="11" Mandatory="No" redcap:FormName="delegation_of_authority_log"/>
+		<FormRef FormOID="Form.subject_enrollment_screening_log" OrderNumber="12" Mandatory="No" redcap:FormName="subject_enrollment_screening_log"/>
+		<FormRef FormOID="Form.monitoring_visit_documentation" OrderNumber="13" Mandatory="No" redcap:FormName="monitoring_visit_documentation"/>
+		<FormRef FormOID="Form.ip_shipping_documents" OrderNumber="14" Mandatory="No" redcap:FormName="ip_shipping_documents"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="15" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.drug_request_form" OrderNumber="16" Mandatory="No" redcap:FormName="drug_request_form"/>
+		<FormRef FormOID="Form.greenlight_document" OrderNumber="17" Mandatory="No" redcap:FormName="greenlight_document"/>
+		<FormRef FormOID="Form.temperature_logs" OrderNumber="18" Mandatory="No" redcap:FormName="temperature_logs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="19" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="20" Mandatory="No" redcap:FormName="training_logs"/>
+		<FormRef FormOID="Form.local_lab_certifications" OrderNumber="21" Mandatory="No" redcap:FormName="local_lab_certifications"/>
+		<FormRef FormOID="Form.local_lab_cv" OrderNumber="22" Mandatory="No" redcap:FormName="local_lab_cv"/>
+		<FormRef FormOID="Form.local_lab_ref_ranges" OrderNumber="23" Mandatory="No" redcap:FormName="local_lab_ref_ranges"/>
+		<FormRef FormOID="Form.user_activations" OrderNumber="24" Mandatory="No" redcap:FormName="user_activations"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.11_arm_1" Name="11" Type="Common" Repeating="No" redcap:EventName="11" redcap:UniqueEventName="11_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="70" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.irb_roster" OrderNumber="3" Mandatory="No" redcap:FormName="irb_roster"/>
+		<FormRef FormOID="Form.irb_correspondence" OrderNumber="4" Mandatory="No" redcap:FormName="irb_correspondence"/>
+		<FormRef FormOID="Form.fda_1572" OrderNumber="5" Mandatory="No" redcap:FormName="fda_1572"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="6" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.contract_cda" OrderNumber="7" Mandatory="No" redcap:FormName="contract_cda"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="8" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="9" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="10" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.delegation_of_authority_log" OrderNumber="11" Mandatory="No" redcap:FormName="delegation_of_authority_log"/>
+		<FormRef FormOID="Form.subject_enrollment_screening_log" OrderNumber="12" Mandatory="No" redcap:FormName="subject_enrollment_screening_log"/>
+		<FormRef FormOID="Form.monitoring_visit_documentation" OrderNumber="13" Mandatory="No" redcap:FormName="monitoring_visit_documentation"/>
+		<FormRef FormOID="Form.ip_shipping_documents" OrderNumber="14" Mandatory="No" redcap:FormName="ip_shipping_documents"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="15" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.drug_request_form" OrderNumber="16" Mandatory="No" redcap:FormName="drug_request_form"/>
+		<FormRef FormOID="Form.greenlight_document" OrderNumber="17" Mandatory="No" redcap:FormName="greenlight_document"/>
+		<FormRef FormOID="Form.temperature_logs" OrderNumber="18" Mandatory="No" redcap:FormName="temperature_logs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="19" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="20" Mandatory="No" redcap:FormName="training_logs"/>
+		<FormRef FormOID="Form.local_lab_certifications" OrderNumber="21" Mandatory="No" redcap:FormName="local_lab_certifications"/>
+		<FormRef FormOID="Form.local_lab_cv" OrderNumber="22" Mandatory="No" redcap:FormName="local_lab_cv"/>
+		<FormRef FormOID="Form.local_lab_ref_ranges" OrderNumber="23" Mandatory="No" redcap:FormName="local_lab_ref_ranges"/>
+		<FormRef FormOID="Form.user_activations" OrderNumber="24" Mandatory="No" redcap:FormName="user_activations"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.12_arm_1" Name="12" Type="Common" Repeating="No" redcap:EventName="12" redcap:UniqueEventName="12_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="77" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.irb_roster" OrderNumber="3" Mandatory="No" redcap:FormName="irb_roster"/>
+		<FormRef FormOID="Form.irb_correspondence" OrderNumber="4" Mandatory="No" redcap:FormName="irb_correspondence"/>
+		<FormRef FormOID="Form.fda_1572" OrderNumber="5" Mandatory="No" redcap:FormName="fda_1572"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="6" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.contract_cda" OrderNumber="7" Mandatory="No" redcap:FormName="contract_cda"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="8" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="9" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="10" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.delegation_of_authority_log" OrderNumber="11" Mandatory="No" redcap:FormName="delegation_of_authority_log"/>
+		<FormRef FormOID="Form.subject_enrollment_screening_log" OrderNumber="12" Mandatory="No" redcap:FormName="subject_enrollment_screening_log"/>
+		<FormRef FormOID="Form.monitoring_visit_documentation" OrderNumber="13" Mandatory="No" redcap:FormName="monitoring_visit_documentation"/>
+		<FormRef FormOID="Form.ip_shipping_documents" OrderNumber="14" Mandatory="No" redcap:FormName="ip_shipping_documents"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="15" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.drug_request_form" OrderNumber="16" Mandatory="No" redcap:FormName="drug_request_form"/>
+		<FormRef FormOID="Form.greenlight_document" OrderNumber="17" Mandatory="No" redcap:FormName="greenlight_document"/>
+		<FormRef FormOID="Form.temperature_logs" OrderNumber="18" Mandatory="No" redcap:FormName="temperature_logs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="19" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="20" Mandatory="No" redcap:FormName="training_logs"/>
+		<FormRef FormOID="Form.local_lab_certifications" OrderNumber="21" Mandatory="No" redcap:FormName="local_lab_certifications"/>
+		<FormRef FormOID="Form.local_lab_cv" OrderNumber="22" Mandatory="No" redcap:FormName="local_lab_cv"/>
+		<FormRef FormOID="Form.local_lab_ref_ranges" OrderNumber="23" Mandatory="No" redcap:FormName="local_lab_ref_ranges"/>
+		<FormRef FormOID="Form.user_activations" OrderNumber="24" Mandatory="No" redcap:FormName="user_activations"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.13_arm_1" Name="13" Type="Common" Repeating="No" redcap:EventName="13" redcap:UniqueEventName="13_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="84" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="3" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="4" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="5" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="6" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="7" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="8" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="9" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.14_arm_1" Name="14" Type="Common" Repeating="No" redcap:EventName="14" redcap:UniqueEventName="14_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="91" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="3" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="4" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="5" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="6" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="7" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="8" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="9" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.15_arm_1" Name="15" Type="Common" Repeating="No" redcap:EventName="15" redcap:UniqueEventName="15_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="98" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="3" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="4" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="5" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="6" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="7" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="8" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="9" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.16_arm_1" Name="16" Type="Common" Repeating="No" redcap:EventName="16" redcap:UniqueEventName="16_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="105" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="3" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="4" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="5" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="6" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="7" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="8" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="9" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.17_arm_1" Name="17" Type="Common" Repeating="No" redcap:EventName="17" redcap:UniqueEventName="17_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="112" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="3" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="4" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="5" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="6" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="7" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="8" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="9" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.18_arm_1" Name="18" Type="Common" Repeating="No" redcap:EventName="18" redcap:UniqueEventName="18_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="119" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="3" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="4" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="5" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="6" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="7" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="8" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="9" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.19_arm_1" Name="19" Type="Common" Repeating="No" redcap:EventName="19" redcap:UniqueEventName="19_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="126" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="3" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="4" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="5" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="6" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="7" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="8" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="9" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.20_arm_1" Name="20" Type="Common" Repeating="No" redcap:EventName="20" redcap:UniqueEventName="20_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="133" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="3" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="4" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="5" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="6" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="7" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="8" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="9" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.21_arm_1" Name="21" Type="Common" Repeating="No" redcap:EventName="21" redcap:UniqueEventName="21_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="140" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="3" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="4" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="5" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="6" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="7" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="8" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="9" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.22_arm_1" Name="22" Type="Common" Repeating="No" redcap:EventName="22" redcap:UniqueEventName="22_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="147" redcap:OffsetMin="7" redcap:OffsetMax="7">
+		<FormRef FormOID="Form.protocol_amendment_submission" OrderNumber="1" Mandatory="No" redcap:FormName="protocol_amendment_submission"/>
+		<FormRef FormOID="Form.protocol_amendment_approval" OrderNumber="2" Mandatory="No" redcap:FormName="protocol_amendment_approval"/>
+		<FormRef FormOID="Form.financial_disclosure_form" OrderNumber="3" Mandatory="No" redcap:FormName="financial_disclosure_form"/>
+		<FormRef FormOID="Form.protocol_signature_page" OrderNumber="4" Mandatory="No" redcap:FormName="protocol_signature_page"/>
+		<FormRef FormOID="Form.licenses" OrderNumber="5" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="6" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ip_dispensing_log" OrderNumber="7" Mandatory="No" redcap:FormName="ip_dispensing_log"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="8" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="9" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.23_arm_1" Name="23" Type="Common" Repeating="No" redcap:EventName="23" redcap:UniqueEventName="23_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="154" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.24_arm_1" Name="24" Type="Common" Repeating="No" redcap:EventName="24" redcap:UniqueEventName="24_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="161" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.25_arm_1" Name="25" Type="Common" Repeating="No" redcap:EventName="25" redcap:UniqueEventName="25_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="168" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.26_arm_1" Name="26" Type="Common" Repeating="No" redcap:EventName="26" redcap:UniqueEventName="26_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="175" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.27_arm_1" Name="27" Type="Common" Repeating="No" redcap:EventName="27" redcap:UniqueEventName="27_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="182" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.28_arm_1" Name="28" Type="Common" Repeating="No" redcap:EventName="28" redcap:UniqueEventName="28_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="189" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.29_arm_1" Name="29" Type="Common" Repeating="No" redcap:EventName="29" redcap:UniqueEventName="29_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="196" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.30_arm_1" Name="30" Type="Common" Repeating="No" redcap:EventName="30" redcap:UniqueEventName="30_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="203" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.31_arm_1" Name="31" Type="Common" Repeating="No" redcap:EventName="31" redcap:UniqueEventName="31_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="204" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.32_arm_1" Name="32" Type="Common" Repeating="No" redcap:EventName="32" redcap:UniqueEventName="32_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="205" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.33_arm_1" Name="33" Type="Common" Repeating="No" redcap:EventName="33" redcap:UniqueEventName="33_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="206" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.34_arm_1" Name="34" Type="Common" Repeating="No" redcap:EventName="34" redcap:UniqueEventName="34_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="207" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.35_arm_1" Name="35" Type="Common" Repeating="No" redcap:EventName="35" redcap:UniqueEventName="35_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="208" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.36_arm_1" Name="36" Type="Common" Repeating="No" redcap:EventName="36" redcap:UniqueEventName="36_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="209" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.37_arm_1" Name="37" Type="Common" Repeating="No" redcap:EventName="37" redcap:UniqueEventName="37_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="210" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.38_arm_1" Name="38" Type="Common" Repeating="No" redcap:EventName="38" redcap:UniqueEventName="38_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="211" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.39_arm_1" Name="39" Type="Common" Repeating="No" redcap:EventName="39" redcap:UniqueEventName="39_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="212" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<StudyEventDef OID="Event.40_arm_1" Name="40" Type="Common" Repeating="No" redcap:EventName="40" redcap:UniqueEventName="40_arm_1" redcap:ArmNum="1" redcap:ArmName="Arm 1" redcap:DayOffset="213" redcap:OffsetMin="0" redcap:OffsetMax="0">
+		<FormRef FormOID="Form.licenses" OrderNumber="1" Mandatory="No" redcap:FormName="licenses"/>
+		<FormRef FormOID="Form.cvs" OrderNumber="2" Mandatory="No" redcap:FormName="cvs"/>
+		<FormRef FormOID="Form.ich_gcp_certificate" OrderNumber="3" Mandatory="No" redcap:FormName="ich_gcp_certificate"/>
+		<FormRef FormOID="Form.training_logs" OrderNumber="4" Mandatory="No" redcap:FormName="training_logs"/>
+	</StudyEventDef>
+	<FormDef OID="Form.site" Name="Site" Repeating="No" redcap:FormName="site">
+		<ItemGroupRef ItemGroupOID="site.group_id" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="site.site_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.site_status" Name="Site Status" Repeating="No" redcap:FormName="site_status">
+		<ItemGroupRef ItemGroupOID="site_status.status_name" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.protocol_amendment_submission" Name="IRB Protocol / amendment submission" Repeating="No" redcap:FormName="protocol_amendment_submission">
+		<ItemGroupRef ItemGroupOID="protocol_amendment_submission.p_a_sub_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.protocol_amendment_approval" Name="IRB Protocol / amendment approval" Repeating="No" redcap:FormName="protocol_amendment_approval">
+		<ItemGroupRef ItemGroupOID="protocol_amendment_approval.p_a_app_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.irb_roster" Name="IRB Roster" Repeating="No" redcap:FormName="irb_roster">
+		<ItemGroupRef ItemGroupOID="irb_roster.irbroster_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.irb_correspondence" Name="IRB Misc Correspondence" Repeating="No" redcap:FormName="irb_correspondence">
+		<ItemGroupRef ItemGroupOID="irb_correspondence.irb_c_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.fda_1572" Name="FDA 1572" Repeating="No" redcap:FormName="fda_1572">
+		<ItemGroupRef ItemGroupOID="fda_1572.fda_1572_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.financial_disclosure_form" Name="Financial disclosure form" Repeating="No" redcap:FormName="financial_disclosure_form">
+		<ItemGroupRef ItemGroupOID="financial_disclosure_form.fin_dis_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.contract_cda" Name="Contract / CDA" Repeating="No" redcap:FormName="contract_cda">
+		<ItemGroupRef ItemGroupOID="contract_cda.cda_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.protocol_signature_page" Name="Protocol signature page" Repeating="No" redcap:FormName="protocol_signature_page">
+		<ItemGroupRef ItemGroupOID="protocol_signature_page.p_sig_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.licenses" Name="Licenses" Repeating="No" redcap:FormName="licenses">
+		<ItemGroupRef ItemGroupOID="licenses.lic_lastname" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="licenses.lic_date" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="licenses.lic1_date" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="licenses.lic2_date" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="licenses.licenses_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.cvs" Name="CV&#039;s" Repeating="No" redcap:FormName="cvs">
+		<ItemGroupRef ItemGroupOID="cvs.cv_date" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="cvs.cv1_date" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="cvs.cv2_date" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="cvs.cvs_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.delegation_of_authority_log" Name="Delegation of Authority log" Repeating="No" redcap:FormName="delegation_of_authority_log">
+		<ItemGroupRef ItemGroupOID="delegation_of_authority_log.d_of_a_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.subject_enrollment_screening_log" Name="Subject enrollment / screening log" Repeating="No" redcap:FormName="subject_enrollment_screening_log">
+		<ItemGroupRef ItemGroupOID="subject_enrollment_screening_log.sub_enr_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.monitoring_visit_documentation" Name="Monitoring visit documentation" Repeating="No" redcap:FormName="monitoring_visit_documentation">
+		<ItemGroupRef ItemGroupOID="monitoring_visit_documentation.mon_vis_type" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="monitoring_visit_documentation.mon_vis_draftdone" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="monitoring_visit_documentation.mon_vis_followup" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="monitoring_visit_documentation.mon_vis_psv12" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="monitoring_visit_documentation.monitoring_visit_documentation_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.ip_shipping_documents" Name="IP shipping documents" Repeating="No" redcap:FormName="ip_shipping_documents">
+		<ItemGroupRef ItemGroupOID="ip_shipping_documents.ip_ship_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.ip_dispensing_log" Name="IP dispensing log" Repeating="No" redcap:FormName="ip_dispensing_log">
+		<ItemGroupRef ItemGroupOID="ip_dispensing_log.ip_dis_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.drug_request_form" Name="Drug Request Form" Repeating="No" redcap:FormName="drug_request_form">
+		<ItemGroupRef ItemGroupOID="drug_request_form.drug_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.greenlight_document" Name="Greenlight Document" Repeating="No" redcap:FormName="greenlight_document">
+		<ItemGroupRef ItemGroupOID="greenlight_document.green_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.temperature_logs" Name="Temperature Logs" Repeating="No" redcap:FormName="temperature_logs">
+		<ItemGroupRef ItemGroupOID="temperature_logs.log_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.ich_gcp_certificate" Name="ICH GCP Certificate" Repeating="No" redcap:FormName="ich_gcp_certificate">
+		<ItemGroupRef ItemGroupOID="ich_gcp_certificate.ich_name" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.training_logs" Name="Training Logs" Repeating="No" redcap:FormName="training_logs">
+		<ItemGroupRef ItemGroupOID="training_logs.train_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.local_lab_certifications" Name="Local Lab Certifications" Repeating="No" redcap:FormName="local_lab_certifications">
+		<ItemGroupRef ItemGroupOID="local_lab_certifications.labclia_type" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="local_lab_certifications.labclia_exp_date" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="local_lab_certifications.labcap_exp_date" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="local_lab_certifications.local_lab_certifications_complete" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.local_lab_cv" Name="Local Lab CV" Repeating="No" redcap:FormName="local_lab_cv">
+		<ItemGroupRef ItemGroupOID="local_lab_cv.labcv_sig_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.local_lab_ref_ranges" Name="Local Lab Ref Ranges" Repeating="No" redcap:FormName="local_lab_ref_ranges">
+		<ItemGroupRef ItemGroupOID="local_lab_ref_ranges.labref_sig_date" Mandatory="No"/>
+	</FormDef>
+	<FormDef OID="Form.user_activations" Name="User Activations" Repeating="No" redcap:FormName="user_activations">
+		<ItemGroupRef ItemGroupOID="user_activations.user_firstname" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="site.group_id" Name="Site" Repeating="No">
+		<ItemRef ItemOID="group_id" Mandatory="No" redcap:Variable="group_id"/>
+		<ItemRef ItemOID="site_id" Mandatory="Yes" redcap:Variable="site_id"/>
+		<ItemRef ItemOID="site_bms_id" Mandatory="Yes" redcap:Variable="site_bms_id"/>
+		<ItemRef ItemOID="site_name" Mandatory="Yes" redcap:Variable="site_name"/>
+		<ItemRef ItemOID="site_pi_firstname" Mandatory="Yes" redcap:Variable="site_pi_firstname"/>
+		<ItemRef ItemOID="site_pi_lastname" Mandatory="Yes" redcap:Variable="site_pi_lastname"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="site.site_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="site_complete" Mandatory="No" redcap:Variable="site_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="site_status.status_name" Name="Site Status" Repeating="No">
+		<ItemRef ItemOID="status_name" Mandatory="Yes" redcap:Variable="status_name"/>
+		<ItemRef ItemOID="status_date" Mandatory="Yes" redcap:Variable="status_date"/>
+		<ItemRef ItemOID="co_pts" Mandatory="Yes" redcap:Variable="co_pts"/>
+		<ItemRef ItemOID="co_reasons___complete" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___low_enroll" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___adherence" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___site_term" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___trigger" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___other" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___complete" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___low_enroll" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___adherence" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___site_term" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___trigger" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___other" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___complete" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___low_enroll" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___adherence" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___site_term" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___trigger" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___other" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___complete" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___low_enroll" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___adherence" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___site_term" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___trigger" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___other" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___complete" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___low_enroll" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___adherence" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___site_term" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___trigger" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___other" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___complete" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___low_enroll" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___adherence" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___site_term" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___trigger" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_reasons___other" Mandatory="Yes" redcap:Variable="co_reasons"/>
+		<ItemRef ItemOID="co_oth_reasons" Mandatory="Yes" redcap:Variable="co_oth_reasons"/>
+		<ItemRef ItemOID="site_status_complete" Mandatory="No" redcap:Variable="site_status_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="protocol_amendment_submission.p_a_sub_date" Name="IRB Protocol / amendment submission" Repeating="No">
+		<ItemRef ItemOID="p_a_sub_date" Mandatory="Yes" redcap:Variable="p_a_sub_date"/>
+		<ItemRef ItemOID="p_a_sub_fileupload" Mandatory="Yes" redcap:Variable="p_a_sub_fileupload"/>
+		<ItemRef ItemOID="protocol_amendment_submission_complete" Mandatory="No" redcap:Variable="protocol_amendment_submission_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="protocol_amendment_approval.p_a_app_date" Name="IRB Protocol / amendment approval" Repeating="No">
+		<ItemRef ItemOID="p_a_app_date" Mandatory="Yes" redcap:Variable="p_a_app_date"/>
+		<ItemRef ItemOID="p_a_app_name" Mandatory="Yes" redcap:Variable="p_a_app_name"/>
+		<ItemRef ItemOID="p_a_app_fileupload" Mandatory="Yes" redcap:Variable="p_a_app_fileupload"/>
+		<ItemRef ItemOID="protocol_amendment_approval_complete" Mandatory="No" redcap:Variable="protocol_amendment_approval_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="irb_roster.irbroster_date" Name="IRB Roster" Repeating="No">
+		<ItemRef ItemOID="irbroster_date" Mandatory="Yes" redcap:Variable="irbroster_date"/>
+		<ItemRef ItemOID="irbroster_fileupload" Mandatory="Yes" redcap:Variable="irbroster_fileupload"/>
+		<ItemRef ItemOID="irb_roster_complete" Mandatory="No" redcap:Variable="irb_roster_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="irb_correspondence.irb_c_date" Name="IRB Misc Correspondence" Repeating="No">
+		<ItemRef ItemOID="irb_c_date" Mandatory="Yes" redcap:Variable="irb_c_date"/>
+		<ItemRef ItemOID="irb_c_fileupload" Mandatory="Yes" redcap:Variable="irb_c_fileupload"/>
+		<ItemRef ItemOID="irb_c_description" Mandatory="Yes" redcap:Variable="irb_c_description"/>
+		<ItemRef ItemOID="irb_correspondence_complete" Mandatory="No" redcap:Variable="irb_correspondence_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="fda_1572.fda_1572_date" Name="FDA 1572" Repeating="No">
+		<ItemRef ItemOID="fda_1572_date" Mandatory="Yes" redcap:Variable="fda_1572_date"/>
+		<ItemRef ItemOID="fda_1572_fileupload" Mandatory="Yes" redcap:Variable="fda_1572_fileupload"/>
+		<ItemRef ItemOID="fda_1572_complete" Mandatory="No" redcap:Variable="fda_1572_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="financial_disclosure_form.fin_dis_date" Name="Financial disclosure form" Repeating="No">
+		<ItemRef ItemOID="fin_dis_date" Mandatory="Yes" redcap:Variable="fin_dis_date"/>
+		<ItemRef ItemOID="fin_dis_fileupload" Mandatory="Yes" redcap:Variable="fin_dis_fileupload"/>
+		<ItemRef ItemOID="fin_dis_lastname" Mandatory="Yes" redcap:Variable="fin_dis_lastname"/>
+		<ItemRef ItemOID="financial_disclosure_form_complete" Mandatory="No" redcap:Variable="financial_disclosure_form_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="contract_cda.cda_date" Name="Contract / CDA" Repeating="No">
+		<ItemRef ItemOID="cda_date" Mandatory="Yes" redcap:Variable="cda_date"/>
+		<ItemRef ItemOID="cda_fileupload" Mandatory="Yes" redcap:Variable="cda_fileupload"/>
+		<ItemRef ItemOID="contract_cda_complete" Mandatory="No" redcap:Variable="contract_cda_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="protocol_signature_page.p_sig_date" Name="Protocol signature page" Repeating="No">
+		<ItemRef ItemOID="p_sig_date" Mandatory="Yes" redcap:Variable="p_sig_date"/>
+		<ItemRef ItemOID="p_sig_fileupload" Mandatory="Yes" redcap:Variable="p_sig_fileupload"/>
+		<ItemRef ItemOID="protocol_signature_page_complete" Mandatory="No" redcap:Variable="protocol_signature_page_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="licenses.lic_lastname" Name="Licenses" Repeating="No">
+		<ItemRef ItemOID="lic_lastname" Mandatory="Yes" redcap:Variable="lic_lastname"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="licenses.lic_date" Name="Initial license" Repeating="No">
+		<ItemRef ItemOID="lic_date" Mandatory="Yes" redcap:Variable="lic_date"/>
+		<ItemRef ItemOID="lic_fileupload" Mandatory="Yes" redcap:Variable="lic_fileupload"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="licenses.lic1_date" Name="First update" Repeating="No">
+		<ItemRef ItemOID="lic1_date" Mandatory="Yes" redcap:Variable="lic1_date"/>
+		<ItemRef ItemOID="lic1_fileupload" Mandatory="Yes" redcap:Variable="lic1_fileupload"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="licenses.lic2_date" Name="Second update" Repeating="No">
+		<ItemRef ItemOID="lic2_date" Mandatory="Yes" redcap:Variable="lic2_date"/>
+		<ItemRef ItemOID="lic2_fileupload" Mandatory="Yes" redcap:Variable="lic2_fileupload"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="licenses.licenses_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="licenses_complete" Mandatory="No" redcap:Variable="licenses_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="cvs.cv_date" Name="Initial CV" Repeating="No">
+		<ItemRef ItemOID="cv_date" Mandatory="Yes" redcap:Variable="cv_date"/>
+		<ItemRef ItemOID="cv_fileupload" Mandatory="Yes" redcap:Variable="cv_fileupload"/>
+		<ItemRef ItemOID="cv_lastname" Mandatory="Yes" redcap:Variable="cv_lastname"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="cvs.cv1_date" Name="First update" Repeating="No">
+		<ItemRef ItemOID="cv1_date" Mandatory="Yes" redcap:Variable="cv1_date"/>
+		<ItemRef ItemOID="cv1_fileupload" Mandatory="Yes" redcap:Variable="cv1_fileupload"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="cvs.cv2_date" Name="Second update" Repeating="No">
+		<ItemRef ItemOID="cv2_date" Mandatory="Yes" redcap:Variable="cv2_date"/>
+		<ItemRef ItemOID="cv2_fileupload" Mandatory="Yes" redcap:Variable="cv2_fileupload"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="cvs.cvs_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="cvs_complete" Mandatory="No" redcap:Variable="cvs_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="delegation_of_authority_log.d_of_a_date" Name="Delegation of Authority log" Repeating="No">
+		<ItemRef ItemOID="d_of_a_date" Mandatory="Yes" redcap:Variable="d_of_a_date"/>
+		<ItemRef ItemOID="d_of_a_fileupload" Mandatory="Yes" redcap:Variable="d_of_a_fileupload"/>
+		<ItemRef ItemOID="delegation_of_authority_log_complete" Mandatory="No" redcap:Variable="delegation_of_authority_log_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="subject_enrollment_screening_log.sub_enr_date" Name="Subject enrollment / screening log" Repeating="No">
+		<ItemRef ItemOID="sub_enr_date" Mandatory="Yes" redcap:Variable="sub_enr_date"/>
+		<ItemRef ItemOID="sub_enr_fileupload" Mandatory="Yes" redcap:Variable="sub_enr_fileupload"/>
+		<ItemRef ItemOID="subject_enrollment_screening_log_complete" Mandatory="No" redcap:Variable="subject_enrollment_screening_log_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="monitoring_visit_documentation.mon_vis_type" Name="Visit" Repeating="No">
+		<ItemRef ItemOID="mon_vis_type" Mandatory="Yes" redcap:Variable="mon_vis_type"/>
+		<ItemRef ItemOID="mon_vis_stat" Mandatory="Yes" redcap:Variable="mon_vis_stat"/>
+		<ItemRef ItemOID="mon_vis_date" Mandatory="Yes" redcap:Variable="mon_vis_date"/>
+		<ItemRef ItemOID="mon_vis_lettersent" Mandatory="Yes" redcap:Variable="mon_vis_lettersent"/>
+		<ItemRef ItemOID="mon_vis_letterfileupload" Mandatory="No" redcap:Variable="mon_vis_letterfileupload"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="monitoring_visit_documentation.mon_vis_draftdone" Name="Visit Report" Repeating="No">
+		<ItemRef ItemOID="mon_vis_draftdone" Mandatory="Yes" redcap:Variable="mon_vis_draftdone"/>
+		<ItemRef ItemOID="mon_vis_appv" Mandatory="Yes" redcap:Variable="mon_vis_appv"/>
+		<ItemRef ItemOID="mon_vis_sent" Mandatory="Yes" redcap:Variable="mon_vis_sent"/>
+		<ItemRef ItemOID="mon_vis_fileupload" Mandatory="Yes" redcap:Variable="mon_vis_fileupload"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="monitoring_visit_documentation.mon_vis_followup" Name="Followup Letter" Repeating="No">
+		<ItemRef ItemOID="mon_vis_followup" Mandatory="Yes" redcap:Variable="mon_vis_followup"/>
+		<ItemRef ItemOID="mon_vis_follupload" Mandatory="Yes" redcap:Variable="mon_vis_follupload"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="monitoring_visit_documentation.mon_vis_psv12" Name="PSV" Repeating="No">
+		<ItemRef ItemOID="mon_vis_psv12" Mandatory="Yes" redcap:Variable="mon_vis_psv12"/>
+		<ItemRef ItemOID="mon_vis_psv_qsent" Mandatory="Yes" redcap:Variable="mon_vis_psv_qsent"/>
+		<ItemRef ItemOID="mon_vis_psv_qrecd" Mandatory="Yes" redcap:Variable="mon_vis_psv_qrecd"/>
+		<ItemRef ItemOID="mon_vis_psv_fileupload" Mandatory="Yes" redcap:Variable="mon_vis_psv_fileupload"/>
+		<ItemRef ItemOID="mon_vis_psv_granted" Mandatory="No" redcap:Variable="mon_vis_psv_granted"/>
+		<ItemRef ItemOID="mon_vis_psv_waivdate" Mandatory="Yes" redcap:Variable="mon_vis_psv_waivdate"/>
+		<ItemRef ItemOID="mon_vis_psv_waivfileupload" Mandatory="Yes" redcap:Variable="mon_vis_psv_waivfileupload"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="monitoring_visit_documentation.monitoring_visit_documentation_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="monitoring_visit_documentation_complete" Mandatory="No" redcap:Variable="monitoring_visit_documentation_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="ip_shipping_documents.ip_ship_date" Name="IP shipping documents" Repeating="No">
+		<ItemRef ItemOID="ip_ship_date" Mandatory="Yes" redcap:Variable="ip_ship_date"/>
+		<ItemRef ItemOID="ip_ship_fileupload" Mandatory="Yes" redcap:Variable="ip_ship_fileupload"/>
+		<ItemRef ItemOID="ip_shipping_documents_complete" Mandatory="No" redcap:Variable="ip_shipping_documents_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="ip_dispensing_log.ip_dis_date" Name="IP dispensing log" Repeating="No">
+		<ItemRef ItemOID="ip_dis_date" Mandatory="Yes" redcap:Variable="ip_dis_date"/>
+		<ItemRef ItemOID="ip_dis_fileupload" Mandatory="Yes" redcap:Variable="ip_dis_fileupload"/>
+		<ItemRef ItemOID="ip_dispensing_log_complete" Mandatory="No" redcap:Variable="ip_dispensing_log_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="drug_request_form.drug_date" Name="Drug Request Form" Repeating="No">
+		<ItemRef ItemOID="drug_date" Mandatory="Yes" redcap:Variable="drug_date"/>
+		<ItemRef ItemOID="drug_fileupload" Mandatory="Yes" redcap:Variable="drug_fileupload"/>
+		<ItemRef ItemOID="drug_request_form_complete" Mandatory="No" redcap:Variable="drug_request_form_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="greenlight_document.green_date" Name="Greenlight Document" Repeating="No">
+		<ItemRef ItemOID="green_date" Mandatory="Yes" redcap:Variable="green_date"/>
+		<ItemRef ItemOID="green_fileupload" Mandatory="Yes" redcap:Variable="green_fileupload"/>
+		<ItemRef ItemOID="greenlight_document_complete" Mandatory="No" redcap:Variable="greenlight_document_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="temperature_logs.log_date" Name="Temperature Logs" Repeating="No">
+		<ItemRef ItemOID="log_date" Mandatory="Yes" redcap:Variable="log_date"/>
+		<ItemRef ItemOID="log_fileupload" Mandatory="Yes" redcap:Variable="log_fileupload"/>
+		<ItemRef ItemOID="temperature_logs_complete" Mandatory="No" redcap:Variable="temperature_logs_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="ich_gcp_certificate.ich_name" Name="ICH GCP Certificate" Repeating="No">
+		<ItemRef ItemOID="ich_name" Mandatory="Yes" redcap:Variable="ich_name"/>
+		<ItemRef ItemOID="ich_fileupload" Mandatory="Yes" redcap:Variable="ich_fileupload"/>
+		<ItemRef ItemOID="ich_gcp_certificate_complete" Mandatory="No" redcap:Variable="ich_gcp_certificate_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="training_logs.train_date" Name="Training Logs" Repeating="No">
+		<ItemRef ItemOID="train_date" Mandatory="Yes" redcap:Variable="train_date"/>
+		<ItemRef ItemOID="train_fileupload" Mandatory="Yes" redcap:Variable="train_fileupload"/>
+		<ItemRef ItemOID="training_logs_complete" Mandatory="No" redcap:Variable="training_logs_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="local_lab_certifications.labclia_type" Name="Local Lab Certifications" Repeating="No">
+		<ItemRef ItemOID="labclia_type" Mandatory="Yes" redcap:Variable="labclia_type"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="local_lab_certifications.labclia_exp_date" Name="CLIA" Repeating="No">
+		<ItemRef ItemOID="labclia_exp_date" Mandatory="Yes" redcap:Variable="labclia_exp_date"/>
+		<ItemRef ItemOID="labclia_fileupload" Mandatory="Yes" redcap:Variable="labclia_fileupload"/>
+		<ItemRef ItemOID="labclia_upd_exp_date" Mandatory="Yes" redcap:Variable="labclia_upd_exp_date"/>
+		<ItemRef ItemOID="labclia_upd_fileupload" Mandatory="Yes" redcap:Variable="labclia_upd_fileupload"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="local_lab_certifications.labcap_exp_date" Name="CAP" Repeating="No">
+		<ItemRef ItemOID="labcap_exp_date" Mandatory="Yes" redcap:Variable="labcap_exp_date"/>
+		<ItemRef ItemOID="labcap_fileupload" Mandatory="Yes" redcap:Variable="labcap_fileupload"/>
+		<ItemRef ItemOID="labcap_upd_exp_date" Mandatory="Yes" redcap:Variable="labcap_upd_exp_date"/>
+		<ItemRef ItemOID="labcap_upd_fileupload" Mandatory="Yes" redcap:Variable="labcap_upd_fileupload"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="local_lab_certifications.local_lab_certifications_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="local_lab_certifications_complete" Mandatory="No" redcap:Variable="local_lab_certifications_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="local_lab_cv.labcv_sig_date" Name="Local Lab CV" Repeating="No">
+		<ItemRef ItemOID="labcv_sig_date" Mandatory="Yes" redcap:Variable="labcv_sig_date"/>
+		<ItemRef ItemOID="labcv_fileupload" Mandatory="Yes" redcap:Variable="labcv_fileupload"/>
+		<ItemRef ItemOID="local_lab_cv_complete" Mandatory="No" redcap:Variable="local_lab_cv_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="local_lab_ref_ranges.labref_sig_date" Name="Local Lab Ref Ranges" Repeating="No">
+		<ItemRef ItemOID="labref_sig_date" Mandatory="Yes" redcap:Variable="labref_sig_date"/>
+		<ItemRef ItemOID="labref_fileupload" Mandatory="Yes" redcap:Variable="labref_fileupload"/>
+		<ItemRef ItemOID="local_lab_ref_ranges_complete" Mandatory="No" redcap:Variable="local_lab_ref_ranges_complete"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="user_activations.user_firstname" Name="User Activations" Repeating="No">
+		<ItemRef ItemOID="user_firstname" Mandatory="Yes" redcap:Variable="user_firstname"/>
+		<ItemRef ItemOID="user_lastname" Mandatory="Yes" redcap:Variable="user_lastname"/>
+		<ItemRef ItemOID="user_name" Mandatory="Yes" redcap:Variable="user_name"/>
+		<ItemRef ItemOID="user_email" Mandatory="Yes" redcap:Variable="user_email"/>
+		<ItemRef ItemOID="training_completed" Mandatory="Yes" redcap:Variable="training_completed"/>
+		<ItemRef ItemOID="user_role" Mandatory="Yes" redcap:Variable="user_role"/>
+		<ItemRef ItemOID="site" Mandatory="Yes" redcap:Variable="site"/>
+		<ItemRef ItemOID="user_form" Mandatory="Yes" redcap:Variable="user_form"/>
+		<ItemRef ItemOID="user_deactivation_form" Mandatory="Yes" redcap:Variable="user_deactivation_form"/>
+		<ItemRef ItemOID="user_activations_complete" Mandatory="No" redcap:Variable="user_activations_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="group_id" Name="group_id" DataType="text" Length="999" redcap:Variable="group_id" redcap:FieldType="text">
+		<Question><TranslatedText>Group ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="site_id" Name="site_id" DataType="text" Length="999" redcap:Variable="site_id" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>TARGET Site ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="site_bms_id" Name="site_bms_id" DataType="text" Length="999" redcap:Variable="site_bms_id" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>BMS Site ID</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="site_name" Name="site_name" DataType="text" Length="999" redcap:Variable="site_name" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Site name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="site_pi_firstname" Name="site_pi_firstname" DataType="text" Length="999" redcap:Variable="site_pi_firstname" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>PI first name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="site_pi_lastname" Name="site_pi_lastname" DataType="text" Length="999" redcap:Variable="site_pi_lastname" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>PI last name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="site_complete" Name="site_complete" DataType="text" Length="1" redcap:Variable="site_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="site_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="status_name" Name="status_name" DataType="text" Length="16" redcap:Variable="status_name" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Site status</TranslatedText></Question>
+		<CodeListRef CodeListOID="status_name.choices"/>
+	</ItemDef>
+	<ItemDef OID="status_date" Name="status_date" DataType="date" Length="999" redcap:Variable="status_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Status date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="co_pts" Name="co_pts" DataType="text" Length="1" redcap:Variable="co_pts" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Did the site enroll patients?</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_pts.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___complete" Name="co_reasons___complete" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___low_enroll" Name="co_reasons___low_enroll" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___low_enroll.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___adherence" Name="co_reasons___adherence" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___adherence.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___site_term" Name="co_reasons___site_term" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___site_term.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___trigger" Name="co_reasons___trigger" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___trigger.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___other" Name="co_reasons___other" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___other.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___complete" Name="co_reasons___complete" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___low_enroll" Name="co_reasons___low_enroll" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___low_enroll.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___adherence" Name="co_reasons___adherence" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___adherence.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___site_term" Name="co_reasons___site_term" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___site_term.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___trigger" Name="co_reasons___trigger" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___trigger.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___other" Name="co_reasons___other" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___other.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___complete" Name="co_reasons___complete" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___low_enroll" Name="co_reasons___low_enroll" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___low_enroll.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___adherence" Name="co_reasons___adherence" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___adherence.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___site_term" Name="co_reasons___site_term" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___site_term.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___trigger" Name="co_reasons___trigger" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___trigger.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___other" Name="co_reasons___other" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___other.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___complete" Name="co_reasons___complete" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___low_enroll" Name="co_reasons___low_enroll" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___low_enroll.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___adherence" Name="co_reasons___adherence" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___adherence.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___site_term" Name="co_reasons___site_term" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___site_term.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___trigger" Name="co_reasons___trigger" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___trigger.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___other" Name="co_reasons___other" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___other.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___complete" Name="co_reasons___complete" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___low_enroll" Name="co_reasons___low_enroll" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___low_enroll.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___adherence" Name="co_reasons___adherence" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___adherence.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___site_term" Name="co_reasons___site_term" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___site_term.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___trigger" Name="co_reasons___trigger" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___trigger.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___other" Name="co_reasons___other" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___other.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___complete" Name="co_reasons___complete" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___low_enroll" Name="co_reasons___low_enroll" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___low_enroll.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___adherence" Name="co_reasons___adherence" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___adherence.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___site_term" Name="co_reasons___site_term" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___site_term.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___trigger" Name="co_reasons___trigger" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___trigger.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_reasons___other" Name="co_reasons___other" DataType="boolean" Length="1" redcap:Variable="co_reasons" redcap:FieldType="checkbox" redcap:FieldNote="Select all that apply" redcap:RequiredField="y" redcap:BranchingLogic="[status_name] = &#039;COV_READY&#039;">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+		<CodeListRef CodeListOID="co_reasons___other.choices"/>
+	</ItemDef>
+	<ItemDef OID="co_oth_reasons" Name="co_oth_reasons" DataType="text" Length="999" redcap:Variable="co_oth_reasons" redcap:FieldType="text" redcap:RequiredField="y" redcap:BranchingLogic="[co_reasons(OTHER)] = 1">
+		<Question><TranslatedText>Reason(s) for closeout</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="site_status_complete" Name="site_status_complete" DataType="text" Length="1" redcap:Variable="site_status_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="site_status_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="p_a_sub_date" Name="p_a_sub_date" DataType="date" Length="999" redcap:Variable="p_a_sub_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Submission date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="p_a_sub_fileupload" Name="p_a_sub_fileupload" DataType="text" Length="999" redcap:Variable="p_a_sub_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="protocol_amendment_submission_complete" Name="protocol_amendment_submission_complete" DataType="text" Length="1" redcap:Variable="protocol_amendment_submission_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="protocol_amendment_submission_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="p_a_app_date" Name="p_a_app_date" DataType="date" Length="999" redcap:Variable="p_a_app_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Approval date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="p_a_app_name" Name="p_a_app_name" DataType="text" Length="8" redcap:Variable="p_a_app_name" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Approval description</TranslatedText></Question>
+		<CodeListRef CodeListOID="p_a_app_name.choices"/>
+	</ItemDef>
+	<ItemDef OID="p_a_app_fileupload" Name="p_a_app_fileupload" DataType="text" Length="999" redcap:Variable="p_a_app_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="protocol_amendment_approval_complete" Name="protocol_amendment_approval_complete" DataType="text" Length="1" redcap:Variable="protocol_amendment_approval_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="protocol_amendment_approval_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="irbroster_date" Name="irbroster_date" DataType="date" Length="999" redcap:Variable="irbroster_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Expiration date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="irbroster_fileupload" Name="irbroster_fileupload" DataType="text" Length="999" redcap:Variable="irbroster_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="irb_roster_complete" Name="irb_roster_complete" DataType="text" Length="1" redcap:Variable="irb_roster_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="irb_roster_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="irb_c_date" Name="irb_c_date" DataType="date" Length="999" redcap:Variable="irb_c_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Correspondence date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="irb_c_fileupload" Name="irb_c_fileupload" DataType="text" Length="999" redcap:Variable="irb_c_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="irb_c_description" Name="irb_c_description" DataType="text" Length="999" redcap:Variable="irb_c_description" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Correspondence description</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="irb_correspondence_complete" Name="irb_correspondence_complete" DataType="text" Length="1" redcap:Variable="irb_correspondence_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="irb_correspondence_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="fda_1572_date" Name="fda_1572_date" DataType="date" Length="999" redcap:Variable="fda_1572_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Signature date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fda_1572_fileupload" Name="fda_1572_fileupload" DataType="text" Length="999" redcap:Variable="fda_1572_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fda_1572_complete" Name="fda_1572_complete" DataType="text" Length="1" redcap:Variable="fda_1572_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="fda_1572_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="fin_dis_date" Name="fin_dis_date" DataType="date" Length="999" redcap:Variable="fin_dis_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Signature date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fin_dis_fileupload" Name="fin_dis_fileupload" DataType="text" Length="999" redcap:Variable="fin_dis_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="fin_dis_lastname" Name="fin_dis_lastname" DataType="text" Length="999" redcap:Variable="fin_dis_lastname" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Last name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="financial_disclosure_form_complete" Name="financial_disclosure_form_complete" DataType="text" Length="1" redcap:Variable="financial_disclosure_form_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="financial_disclosure_form_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="cda_date" Name="cda_date" DataType="date" Length="999" redcap:Variable="cda_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Contract date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="cda_fileupload" Name="cda_fileupload" DataType="text" Length="999" redcap:Variable="cda_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="contract_cda_complete" Name="contract_cda_complete" DataType="text" Length="1" redcap:Variable="contract_cda_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="contract_cda_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="p_sig_date" Name="p_sig_date" DataType="date" Length="999" redcap:Variable="p_sig_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Signature date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="p_sig_fileupload" Name="p_sig_fileupload" DataType="text" Length="999" redcap:Variable="p_sig_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="protocol_signature_page_complete" Name="protocol_signature_page_complete" DataType="text" Length="1" redcap:Variable="protocol_signature_page_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="protocol_signature_page_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="lic_lastname" Name="lic_lastname" DataType="text" Length="999" redcap:Variable="lic_lastname" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Last name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="lic_date" Name="lic_date" DataType="date" Length="999" redcap:Variable="lic_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="Initial license" redcap:RequiredField="y">
+		<Question><TranslatedText>Expiration date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="lic_fileupload" Name="lic_fileupload" DataType="text" Length="999" redcap:Variable="lic_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="lic1_date" Name="lic1_date" DataType="date" Length="999" redcap:Variable="lic1_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="First update" redcap:RequiredField="y">
+		<Question><TranslatedText>Expiration date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="lic1_fileupload" Name="lic1_fileupload" DataType="text" Length="999" redcap:Variable="lic1_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="lic2_date" Name="lic2_date" DataType="date" Length="999" redcap:Variable="lic2_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="Second update" redcap:RequiredField="y">
+		<Question><TranslatedText>Expiration date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="lic2_fileupload" Name="lic2_fileupload" DataType="text" Length="999" redcap:Variable="lic2_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="licenses_complete" Name="licenses_complete" DataType="text" Length="1" redcap:Variable="licenses_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="licenses_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="cv_date" Name="cv_date" DataType="date" Length="999" redcap:Variable="cv_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="Initial CV" redcap:RequiredField="y">
+		<Question><TranslatedText>Signature date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="cv_fileupload" Name="cv_fileupload" DataType="text" Length="999" redcap:Variable="cv_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="cv_lastname" Name="cv_lastname" DataType="text" Length="999" redcap:Variable="cv_lastname" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Last name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="cv1_date" Name="cv1_date" DataType="date" Length="999" redcap:Variable="cv1_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="First update" redcap:RequiredField="y">
+		<Question><TranslatedText>Signature date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="cv1_fileupload" Name="cv1_fileupload" DataType="text" Length="999" redcap:Variable="cv1_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="cv2_date" Name="cv2_date" DataType="date" Length="999" redcap:Variable="cv2_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="Second update" redcap:RequiredField="y">
+		<Question><TranslatedText>Signature date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="cv2_fileupload" Name="cv2_fileupload" DataType="text" Length="999" redcap:Variable="cv2_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="cvs_complete" Name="cvs_complete" DataType="text" Length="1" redcap:Variable="cvs_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="cvs_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="d_of_a_date" Name="d_of_a_date" DataType="date" Length="999" redcap:Variable="d_of_a_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="d_of_a_fileupload" Name="d_of_a_fileupload" DataType="text" Length="999" redcap:Variable="d_of_a_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="delegation_of_authority_log_complete" Name="delegation_of_authority_log_complete" DataType="text" Length="1" redcap:Variable="delegation_of_authority_log_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="delegation_of_authority_log_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="sub_enr_date" Name="sub_enr_date" DataType="date" Length="999" redcap:Variable="sub_enr_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="sub_enr_fileupload" Name="sub_enr_fileupload" DataType="text" Length="999" redcap:Variable="sub_enr_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="subject_enrollment_screening_log_complete" Name="subject_enrollment_screening_log_complete" DataType="text" Length="1" redcap:Variable="subject_enrollment_screening_log_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="subject_enrollment_screening_log_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="mon_vis_type" Name="mon_vis_type" DataType="text" Length="9" redcap:Variable="mon_vis_type" redcap:FieldType="radio" redcap:SectionHeader="Visit" redcap:RequiredField="y">
+		<Question><TranslatedText>Visit type</TranslatedText></Question>
+		<CodeListRef CodeListOID="mon_vis_type.choices"/>
+	</ItemDef>
+	<ItemDef OID="mon_vis_stat" Name="mon_vis_stat" DataType="text" Length="11" redcap:Variable="mon_vis_stat" redcap:FieldType="radio" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] != &#039;&#039; AND [mon_vis_type] != &#039;PSV&#039;">
+		<Question><TranslatedText>Visit status</TranslatedText></Question>
+		<CodeListRef CodeListOID="mon_vis_stat.choices"/>
+	</ItemDef>
+	<ItemDef OID="mon_vis_date" Name="mon_vis_date" DataType="date" Length="999" redcap:Variable="mon_vis_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] != &#039;&#039; AND [mon_vis_type] != &#039;PSV&#039;">
+		<Question><TranslatedText>Visit date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_lettersent" Name="mon_vis_lettersent" DataType="date" Length="999" redcap:Variable="mon_vis_lettersent" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] != &#039;&#039; AND [mon_vis_type] != &#039;PSV&#039;">
+		<Question><TranslatedText>Visit confirmation letter sent</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_letterfileupload" Name="mon_vis_letterfileupload" DataType="text" Length="999" redcap:Variable="mon_vis_letterfileupload" redcap:FieldType="file" redcap:BranchingLogic="[mon_vis_type] != &#039;&#039; AND [mon_vis_type] != &#039;PSV&#039;">
+		<Question><TranslatedText>Upload confirmation letter</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_draftdone" Name="mon_vis_draftdone" DataType="date" Length="999" redcap:Variable="mon_vis_draftdone" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="Visit Report" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] != &#039;&#039; AND [mon_vis_type] != &#039;PSV&#039; AND [mon_vis_type] != &#039;SIV&#039;">
+		<Question><TranslatedText>Draft completed</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_appv" Name="mon_vis_appv" DataType="date" Length="999" redcap:Variable="mon_vis_appv" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] != &#039;&#039; AND [mon_vis_type] != &#039;PSV&#039; AND [mon_vis_type] != &#039;SIV&#039;">
+		<Question><TranslatedText>Approved</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_sent" Name="mon_vis_sent" DataType="date" Length="999" redcap:Variable="mon_vis_sent" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] != &#039;&#039; AND [mon_vis_type] != &#039;PSV&#039; AND [mon_vis_type] != &#039;SIV&#039;">
+		<Question><TranslatedText>Sent</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_fileupload" Name="mon_vis_fileupload" DataType="text" Length="999" redcap:Variable="mon_vis_fileupload" redcap:FieldType="file" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] != &#039;&#039; AND [mon_vis_type] != &#039;PSV&#039; AND [mon_vis_type] != &#039;SIV&#039;">
+		<Question><TranslatedText>Upload Visit Report</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_followup" Name="mon_vis_followup" DataType="date" Length="999" redcap:Variable="mon_vis_followup" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="Followup Letter" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] != &#039;&#039; AND [mon_vis_type] != &#039;PSV&#039;">
+		<Question><TranslatedText>Letter sent date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_follupload" Name="mon_vis_follupload" DataType="text" Length="999" redcap:Variable="mon_vis_follupload" redcap:FieldType="file" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] != &#039;&#039; AND [mon_vis_type] != &#039;PSV&#039;">
+		<Question><TranslatedText>Upload Followup Letter</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_psv12" Name="mon_vis_psv12" DataType="text" Length="1" redcap:Variable="mon_vis_psv12" redcap:FieldType="radio" redcap:SectionHeader="PSV" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] = &#039;PSV&#039;">
+		<Question><TranslatedText>BMS PSV within 12 months?</TranslatedText></Question>
+		<CodeListRef CodeListOID="mon_vis_psv12.choices"/>
+	</ItemDef>
+	<ItemDef OID="mon_vis_psv_qsent" Name="mon_vis_psv_qsent" DataType="date" Length="999" redcap:Variable="mon_vis_psv_qsent" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] = &#039;PSV&#039; AND [mon_vis_psv12] = &#039;N&#039;">
+		<Question><TranslatedText>Questionnaire sent date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_psv_qrecd" Name="mon_vis_psv_qrecd" DataType="date" Length="999" redcap:Variable="mon_vis_psv_qrecd" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] = &#039;PSV&#039; AND [mon_vis_psv12] = &#039;N&#039;">
+		<Question><TranslatedText>Questionnaire received date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_psv_fileupload" Name="mon_vis_psv_fileupload" DataType="text" Length="999" redcap:Variable="mon_vis_psv_fileupload" redcap:FieldType="file" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] = &#039;PSV&#039; AND [mon_vis_psv12] = &#039;N&#039;">
+		<Question><TranslatedText>Upload Questionnaire</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_psv_granted" Name="mon_vis_psv_granted" DataType="text" Length="1" redcap:Variable="mon_vis_psv_granted" redcap:FieldType="radio" redcap:BranchingLogic="[mon_vis_type] = &#039;PSV&#039;">
+		<Question><TranslatedText>PSV waiver granted?</TranslatedText></Question>
+		<CodeListRef CodeListOID="mon_vis_psv_granted.choices"/>
+	</ItemDef>
+	<ItemDef OID="mon_vis_psv_waivdate" Name="mon_vis_psv_waivdate" DataType="date" Length="999" redcap:Variable="mon_vis_psv_waivdate" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] = &#039;PSV&#039; AND [mon_vis_psv_granted] = &#039;Y&#039;">
+		<Question><TranslatedText>Waiver sent to site</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="mon_vis_psv_waivfileupload" Name="mon_vis_psv_waivfileupload" DataType="text" Length="999" redcap:Variable="mon_vis_psv_waivfileupload" redcap:FieldType="file" redcap:RequiredField="y" redcap:BranchingLogic="[mon_vis_type] = &#039;PSV&#039; AND [mon_vis_psv_granted] = &#039;Y&#039;">
+		<Question><TranslatedText>Upload Waiver</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="monitoring_visit_documentation_complete" Name="monitoring_visit_documentation_complete" DataType="text" Length="1" redcap:Variable="monitoring_visit_documentation_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="monitoring_visit_documentation_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="ip_ship_date" Name="ip_ship_date" DataType="date" Length="999" redcap:Variable="ip_ship_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="ip_ship_fileupload" Name="ip_ship_fileupload" DataType="text" Length="999" redcap:Variable="ip_ship_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="ip_shipping_documents_complete" Name="ip_shipping_documents_complete" DataType="text" Length="1" redcap:Variable="ip_shipping_documents_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="ip_shipping_documents_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="ip_dis_date" Name="ip_dis_date" DataType="date" Length="999" redcap:Variable="ip_dis_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="ip_dis_fileupload" Name="ip_dis_fileupload" DataType="text" Length="999" redcap:Variable="ip_dis_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="ip_dispensing_log_complete" Name="ip_dispensing_log_complete" DataType="text" Length="1" redcap:Variable="ip_dispensing_log_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="ip_dispensing_log_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="drug_date" Name="drug_date" DataType="date" Length="999" redcap:Variable="drug_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Request date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="drug_fileupload" Name="drug_fileupload" DataType="text" Length="999" redcap:Variable="drug_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="drug_request_form_complete" Name="drug_request_form_complete" DataType="text" Length="1" redcap:Variable="drug_request_form_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="drug_request_form_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="green_date" Name="green_date" DataType="date" Length="999" redcap:Variable="green_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Issue date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="green_fileupload" Name="green_fileupload" DataType="text" Length="999" redcap:Variable="green_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="greenlight_document_complete" Name="greenlight_document_complete" DataType="text" Length="1" redcap:Variable="greenlight_document_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="greenlight_document_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="log_date" Name="log_date" DataType="date" Length="999" redcap:Variable="log_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="log_fileupload" Name="log_fileupload" DataType="text" Length="999" redcap:Variable="log_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="temperature_logs_complete" Name="temperature_logs_complete" DataType="text" Length="1" redcap:Variable="temperature_logs_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="temperature_logs_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="ich_name" Name="ich_name" DataType="text" Length="999" redcap:Variable="ich_name" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>ICH name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="ich_fileupload" Name="ich_fileupload" DataType="text" Length="999" redcap:Variable="ich_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="ich_gcp_certificate_complete" Name="ich_gcp_certificate_complete" DataType="text" Length="1" redcap:Variable="ich_gcp_certificate_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="ich_gcp_certificate_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="train_date" Name="train_date" DataType="date" Length="999" redcap:Variable="train_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Log date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="train_fileupload" Name="train_fileupload" DataType="text" Length="999" redcap:Variable="train_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="training_logs_complete" Name="training_logs_complete" DataType="text" Length="1" redcap:Variable="training_logs_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="training_logs_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="labclia_type" Name="labclia_type" DataType="text" Length="6" redcap:Variable="labclia_type" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Type of certification</TranslatedText></Question>
+		<CodeListRef CodeListOID="labclia_type.choices"/>
+	</ItemDef>
+	<ItemDef OID="labclia_exp_date" Name="labclia_exp_date" DataType="date" Length="999" redcap:Variable="labclia_exp_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="CLIA" redcap:RequiredField="y">
+		<Question><TranslatedText>Certification expiration date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="labclia_fileupload" Name="labclia_fileupload" DataType="text" Length="999" redcap:Variable="labclia_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload certificate</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="labclia_upd_exp_date" Name="labclia_upd_exp_date" DataType="date" Length="999" redcap:Variable="labclia_upd_exp_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Updated certification expiration date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="labclia_upd_fileupload" Name="labclia_upd_fileupload" DataType="text" Length="999" redcap:Variable="labclia_upd_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload updated certificate</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="labcap_exp_date" Name="labcap_exp_date" DataType="date" Length="999" redcap:Variable="labcap_exp_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:SectionHeader="CAP" redcap:RequiredField="y" redcap:BranchingLogic="[labclia_type] = &#039;COA&#039;">
+		<Question><TranslatedText>CAP inspection expiration date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="labcap_fileupload" Name="labcap_fileupload" DataType="text" Length="999" redcap:Variable="labcap_fileupload" redcap:FieldType="file" redcap:RequiredField="y" redcap:BranchingLogic="[labclia_type] = &#039;COA&#039;">
+		<Question><TranslatedText>Upload certificate</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="labcap_upd_exp_date" Name="labcap_upd_exp_date" DataType="date" Length="999" redcap:Variable="labcap_upd_exp_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y" redcap:BranchingLogic="[labclia_type] = &#039;COA&#039;">
+		<Question><TranslatedText>Updated CAP inspection expiration date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="labcap_upd_fileupload" Name="labcap_upd_fileupload" DataType="text" Length="999" redcap:Variable="labcap_upd_fileupload" redcap:FieldType="file" redcap:RequiredField="y" redcap:BranchingLogic="[labclia_type] = &#039;COA&#039;">
+		<Question><TranslatedText>Upload updated certificate</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="local_lab_certifications_complete" Name="local_lab_certifications_complete" DataType="text" Length="1" redcap:Variable="local_lab_certifications_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="local_lab_certifications_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="labcv_sig_date" Name="labcv_sig_date" DataType="date" Length="999" redcap:Variable="labcv_sig_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>CV Signature date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="labcv_fileupload" Name="labcv_fileupload" DataType="text" Length="999" redcap:Variable="labcv_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="local_lab_cv_complete" Name="local_lab_cv_complete" DataType="text" Length="1" redcap:Variable="local_lab_cv_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="local_lab_cv_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="labref_sig_date" Name="labref_sig_date" DataType="date" Length="999" redcap:Variable="labref_sig_date" redcap:FieldType="text" redcap:TextValidationType="date_ymd" redcap:RequiredField="y">
+		<Question><TranslatedText>Signature date</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="labref_fileupload" Name="labref_fileupload" DataType="text" Length="999" redcap:Variable="labref_fileupload" redcap:FieldType="file" redcap:RequiredField="y">
+		<Question><TranslatedText>Upload file</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="local_lab_ref_ranges_complete" Name="local_lab_ref_ranges_complete" DataType="text" Length="1" redcap:Variable="local_lab_ref_ranges_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="local_lab_ref_ranges_complete.choices"/>
+	</ItemDef>
+	<ItemDef OID="user_firstname" Name="user_firstname" DataType="text" Length="999" redcap:Variable="user_firstname" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>First Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="user_lastname" Name="user_lastname" DataType="text" Length="999" redcap:Variable="user_lastname" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Last Name</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="user_name" Name="user_name" DataType="text" Length="999" redcap:Variable="user_name" redcap:FieldType="text" redcap:RequiredField="y">
+		<Question><TranslatedText>Username</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="user_email" Name="user_email" DataType="text" Length="999" redcap:Variable="user_email" redcap:FieldType="text" redcap:TextValidationType="email" redcap:RequiredField="y">
+		<Question><TranslatedText>Email</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="training_completed" Name="training_completed" DataType="text" Length="1" redcap:Variable="training_completed" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>Training completed?</TranslatedText></Question>
+		<CodeListRef CodeListOID="training_completed.choices"/>
+	</ItemDef>
+	<ItemDef OID="user_role" Name="user_role" DataType="text" Length="21" redcap:Variable="user_role" redcap:FieldType="radio" redcap:RequiredField="y">
+		<Question><TranslatedText>User Role</TranslatedText></Question>
+		<CodeListRef CodeListOID="user_role.choices"/>
+	</ItemDef>
+	<ItemDef OID="site" Name="site" DataType="text" Length="39" redcap:Variable="site" redcap:FieldType="sql" redcap:RequiredField="y">
+		<Question><TranslatedText>Site</TranslatedText></Question>
+		<CodeListRef CodeListOID="site.choices"/>
+	</ItemDef>
+	<ItemDef OID="user_form" Name="user_form" DataType="text" Length="999" redcap:Variable="user_form" redcap:FieldType="file" redcap:FieldNote="Upload the completed Activation Form for this user" redcap:RequiredField="y">
+		<Question><TranslatedText>REDCap User Account Activation Form</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="user_deactivation_form" Name="user_deactivation_form" DataType="text" Length="999" redcap:Variable="user_deactivation_form" redcap:FieldType="file" redcap:FieldNote="Upload the completed De-Activation Form for this user" redcap:RequiredField="y">
+		<Question><TranslatedText>REDCap User Account De-Activation Form</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="user_activations_complete" Name="user_activations_complete" DataType="text" Length="1" redcap:Variable="user_activations_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="user_activations_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="site_complete.choices" Name="site_complete" DataType="text" redcap:Variable="site_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="status_name.choices" Name="status_name" DataType="text" redcap:Variable="status_name">
+		<CodeListItem CodedValue="SIV_READY"><Decode><TranslatedText>Ready for SIV</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="SIV_COMPLETE"><Decode><TranslatedText>SIV complete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="SITE_ACTIVE"><Decode><TranslatedText>Site active</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="ACTIVE_ENROLLING"><Decode><TranslatedText>Site enrolling</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="COV_READY"><Decode><TranslatedText>Ready for COV</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="COV_COMPLETE"><Decode><TranslatedText>COV complete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="WITHDRAWN"><Decode><TranslatedText>Withdrawn from study</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_pts.choices" Name="co_pts" DataType="text" redcap:Variable="co_pts">
+		<CodeListItem CodedValue="N"><Decode><TranslatedText>NO</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="Y"><Decode><TranslatedText>YES</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___complete.choices" Name="co_reasons___complete" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___low_enroll.choices" Name="co_reasons___low_enroll" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___adherence.choices" Name="co_reasons___adherence" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___site_term.choices" Name="co_reasons___site_term" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___trigger.choices" Name="co_reasons___trigger" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___other.choices" Name="co_reasons___other" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___complete.choices" Name="co_reasons___complete" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___low_enroll.choices" Name="co_reasons___low_enroll" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___adherence.choices" Name="co_reasons___adherence" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___site_term.choices" Name="co_reasons___site_term" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___trigger.choices" Name="co_reasons___trigger" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___other.choices" Name="co_reasons___other" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___complete.choices" Name="co_reasons___complete" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___low_enroll.choices" Name="co_reasons___low_enroll" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___adherence.choices" Name="co_reasons___adherence" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___site_term.choices" Name="co_reasons___site_term" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___trigger.choices" Name="co_reasons___trigger" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___other.choices" Name="co_reasons___other" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___complete.choices" Name="co_reasons___complete" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___low_enroll.choices" Name="co_reasons___low_enroll" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___adherence.choices" Name="co_reasons___adherence" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___site_term.choices" Name="co_reasons___site_term" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___trigger.choices" Name="co_reasons___trigger" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___other.choices" Name="co_reasons___other" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___complete.choices" Name="co_reasons___complete" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___low_enroll.choices" Name="co_reasons___low_enroll" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___adherence.choices" Name="co_reasons___adherence" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___site_term.choices" Name="co_reasons___site_term" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___trigger.choices" Name="co_reasons___trigger" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___other.choices" Name="co_reasons___other" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___complete.choices" Name="co_reasons___complete" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___low_enroll.choices" Name="co_reasons___low_enroll" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___adherence.choices" Name="co_reasons___adherence" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___site_term.choices" Name="co_reasons___site_term" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___trigger.choices" Name="co_reasons___trigger" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="co_reasons___other.choices" Name="co_reasons___other" DataType="boolean" redcap:Variable="co_reasons" redcap:CheckboxChoices="COMPLETE, Study/subject completion | LOW_ENROLL, Inadequate enrollment | ADHERENCE, Protocol adherence | SITE_TERM, Site requested termination | TRIGGER, Sponsor triggered termination (data related, marketing approval, etc) | OTHER, Other">
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Checked</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Unchecked</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="site_status_complete.choices" Name="site_status_complete" DataType="text" redcap:Variable="site_status_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="protocol_amendment_submission_complete.choices" Name="protocol_amendment_submission_complete" DataType="text" redcap:Variable="protocol_amendment_submission_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="p_a_app_name.choices" Name="p_a_app_name" DataType="text" redcap:Variable="p_a_app_name">
+		<CodeListItem CodedValue="INITIAL"><Decode><TranslatedText>Initial study approval (incl Protocol, ICF and IB)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="PROTOCOL"><Decode><TranslatedText>Protocol amendment</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="ANNUAL"><Decode><TranslatedText>Annual renewal</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="ICF_REV"><Decode><TranslatedText>Revised ICF</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="SAFETY"><Decode><TranslatedText>Safety information approval (incl Deviations, AE/SAE)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="MISC"><Decode><TranslatedText>Miscellaneous study materials</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="protocol_amendment_approval_complete.choices" Name="protocol_amendment_approval_complete" DataType="text" redcap:Variable="protocol_amendment_approval_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="irb_roster_complete.choices" Name="irb_roster_complete" DataType="text" redcap:Variable="irb_roster_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="irb_correspondence_complete.choices" Name="irb_correspondence_complete" DataType="text" redcap:Variable="irb_correspondence_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="fda_1572_complete.choices" Name="fda_1572_complete" DataType="text" redcap:Variable="fda_1572_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="financial_disclosure_form_complete.choices" Name="financial_disclosure_form_complete" DataType="text" redcap:Variable="financial_disclosure_form_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="contract_cda_complete.choices" Name="contract_cda_complete" DataType="text" redcap:Variable="contract_cda_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="protocol_signature_page_complete.choices" Name="protocol_signature_page_complete" DataType="text" redcap:Variable="protocol_signature_page_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="licenses_complete.choices" Name="licenses_complete" DataType="text" redcap:Variable="licenses_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="cvs_complete.choices" Name="cvs_complete" DataType="text" redcap:Variable="cvs_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="delegation_of_authority_log_complete.choices" Name="delegation_of_authority_log_complete" DataType="text" redcap:Variable="delegation_of_authority_log_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="subject_enrollment_screening_log_complete.choices" Name="subject_enrollment_screening_log_complete" DataType="text" redcap:Variable="subject_enrollment_screening_log_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="mon_vis_type.choices" Name="mon_vis_type" DataType="text" redcap:Variable="mon_vis_type">
+		<CodeListItem CodedValue="PSV"><Decode><TranslatedText>PSV</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="SIV"><Decode><TranslatedText>SIV</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="IMV"><Decode><TranslatedText>IMV</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="FOR_CAUSE"><Decode><TranslatedText>For Cause</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="COV"><Decode><TranslatedText>COV</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="mon_vis_stat.choices" Name="mon_vis_stat" DataType="text" redcap:Variable="mon_vis_stat">
+		<CodeListItem CodedValue="SCHEDULED"><Decode><TranslatedText>Scheduled</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="RESCHEDULED"><Decode><TranslatedText>Rescheduled</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="CANCELLED"><Decode><TranslatedText>Cancelled</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="COMPLETED"><Decode><TranslatedText>Completed</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="mon_vis_psv12.choices" Name="mon_vis_psv12" DataType="text" redcap:Variable="mon_vis_psv12">
+		<CodeListItem CodedValue="N"><Decode><TranslatedText>NO</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="Y"><Decode><TranslatedText>YES</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="mon_vis_psv_granted.choices" Name="mon_vis_psv_granted" DataType="text" redcap:Variable="mon_vis_psv_granted">
+		<CodeListItem CodedValue="N"><Decode><TranslatedText>NO</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="Y"><Decode><TranslatedText>YES</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="monitoring_visit_documentation_complete.choices" Name="monitoring_visit_documentation_complete" DataType="text" redcap:Variable="monitoring_visit_documentation_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ip_shipping_documents_complete.choices" Name="ip_shipping_documents_complete" DataType="text" redcap:Variable="ip_shipping_documents_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ip_dispensing_log_complete.choices" Name="ip_dispensing_log_complete" DataType="text" redcap:Variable="ip_dispensing_log_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="drug_request_form_complete.choices" Name="drug_request_form_complete" DataType="text" redcap:Variable="drug_request_form_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="greenlight_document_complete.choices" Name="greenlight_document_complete" DataType="text" redcap:Variable="greenlight_document_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="temperature_logs_complete.choices" Name="temperature_logs_complete" DataType="text" redcap:Variable="temperature_logs_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="ich_gcp_certificate_complete.choices" Name="ich_gcp_certificate_complete" DataType="text" redcap:Variable="ich_gcp_certificate_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="training_logs_complete.choices" Name="training_logs_complete" DataType="text" redcap:Variable="training_logs_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="labclia_type.choices" Name="labclia_type" DataType="text" redcap:Variable="labclia_type">
+		<CodeListItem CodedValue="COC"><Decode><TranslatedText>Certificate of Completion</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="COA"><Decode><TranslatedText>Certificate of Accreditation</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="WAIVER"><Decode><TranslatedText>Waiver</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="local_lab_certifications_complete.choices" Name="local_lab_certifications_complete" DataType="text" redcap:Variable="local_lab_certifications_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="local_lab_cv_complete.choices" Name="local_lab_cv_complete" DataType="text" redcap:Variable="local_lab_cv_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="local_lab_ref_ranges_complete.choices" Name="local_lab_ref_ranges_complete" DataType="text" redcap:Variable="local_lab_ref_ranges_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="training_completed.choices" Name="training_completed" DataType="text" redcap:Variable="training_completed">
+		<CodeListItem CodedValue="N"><Decode><TranslatedText>NO</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="Y"><Decode><TranslatedText>YES</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="user_role.choices" Name="user_role" DataType="text" redcap:Variable="user_role">
+		<CodeListItem CodedValue="CLINICAL_DATA_MANAGER"><Decode><TranslatedText>Clinical Data Manager</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="CRA"><Decode><TranslatedText>CRA/Data Monitor</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="FUNDING"><Decode><TranslatedText>Funding Administrator</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="INVESTIGATOR"><Decode><TranslatedText>Investigator</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="INVESTIGATOR_EXTERNAL"><Decode><TranslatedText>Investigator (External)</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="PROJECT_MANAGER_CCC"><Decode><TranslatedText>Project Manager CCC</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="PROJECT_MANAGER_DCC"><Decode><TranslatedText>Project Manager DCC</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="STATISTICIAN"><Decode><TranslatedText>Statistician</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="COORDINATOR"><Decode><TranslatedText>Study Coordinator</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="DATA_ENTRY"><Decode><TranslatedText>Data Entry</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="API"><Decode><TranslatedText>API-only access</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="site.choices" Name="site" DataType="text" redcap:Variable="site">
+		<CodeListItem CodedValue="0001 - Johns Hopkins University"><Decode><TranslatedText>0001 - Johns Hopkins University</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0002 - Mayo, Arizona"><Decode><TranslatedText>0002 - Mayo, Arizona</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0003 - Texas"><Decode><TranslatedText>0003 - Texas</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0004 - Florida"><Decode><TranslatedText>0004 - Florida</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0005 - University of Pennsylvania"><Decode><TranslatedText>0005 - University of Pennsylvania</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0006 - UC, San Diego"><Decode><TranslatedText>0006 - UC, San Diego</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0007 - Columbia"><Decode><TranslatedText>0007 - Columbia</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0008 - Mass Gen"><Decode><TranslatedText>0008 - Mass Gen</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0009 - Yale"><Decode><TranslatedText>0009 - Yale</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0010 - Indiana"><Decode><TranslatedText>0010 - Indiana</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0011 - Henry Ford Health System"><Decode><TranslatedText>0011 - Henry Ford Health System</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0012 - Dartmouth"><Decode><TranslatedText>0012 - Dartmouth</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0013 - Ochsner Healthcare"><Decode><TranslatedText>0013 - Ochsner Healthcare</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0014 - UNC"><Decode><TranslatedText>0014 - UNC</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0015 - Chicago"><Decode><TranslatedText>0015 - Chicago</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0016 - Virginia Commonwealth University"><Decode><TranslatedText>0016 - Virginia Commonwealth University</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0017 - Montefiore NY"><Decode><TranslatedText>0017 - Montefiore NY</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0018 - Cornell University"><Decode><TranslatedText>0018 - Cornell University</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0019 - USC"><Decode><TranslatedText>0019 - USC</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0020 - Swedish Hospital"><Decode><TranslatedText>0020 - Swedish Hospital</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0021 - Piedmont Hospital Atlanta"><Decode><TranslatedText>0021 - Piedmont Hospital Atlanta</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0022 - Carolinas Health Care"><Decode><TranslatedText>0022 - Carolinas Health Care</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0023 - U Mass"><Decode><TranslatedText>0023 - U Mass</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0024 - Mercy Medical Center"><Decode><TranslatedText>0024 - Mercy Medical Center</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="0025 - London Health Sciences"><Decode><TranslatedText>0025 - London Health Sciences</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="user_activations_complete.choices" Name="user_activations_complete" DataType="text" redcap:Variable="user_activations_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
